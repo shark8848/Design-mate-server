@@ -18,8 +18,8 @@ dir:
 mail:
         mail_jwt_secret_key: 'zsed1234*&%GBUok)(IFRB%$edrDrByKJuil)VFD$gYhgtl'
         mail_jwt_expiration_delta : 1800
-        sender_mail: '113162985@qq.com'
-        sender_password: 'nngovzdvkraybhcf'
+        sender_mail: '********@qq.com'
+        sender_password: '1qaz2w2wssssssxsswwww'
         smtp_server: 'smtp.qq.com'
         smtp_port: '25'
         smtp_ssl_port: '465'
