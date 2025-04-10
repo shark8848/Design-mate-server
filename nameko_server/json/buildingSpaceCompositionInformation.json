@@ -1,0 +1,666 @@
+{
+    "organizationCode": "ABC123",
+    "projectId": "P123",
+    "buildingSpace": [
+        {
+            "buildingSpaceId": "BS458",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "master room 1",
+                    "area": 2,
+                    "exteriorWallArea": 2,
+                    "windows": [
+                        {
+                            "area": 2,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 0,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS458",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 20.5,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS459",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 20.5,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS460",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 20.5,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS461",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 20.5,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS462",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 20.5,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS480",
+            "spaceName": "Apartment 102",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 20.5,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 8,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS666",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 20.5,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS580",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 20.5,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS581",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 20.5,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS582",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 20.5,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS583",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 20.5,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS584",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 20.5,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS587",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 20.5,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS588",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 20.5,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS599",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 20.5,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS669",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 20.5,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS670",
+            "spaceName": "Apartment 109",
+            "floorHeight": 1,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "master room",
+                    "area": 2,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 8,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 1,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS672",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 20.5,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS600",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 3,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS677",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 3,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS678",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 3,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 2,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS602",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 3,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 2,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS888",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 3,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 2,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS601",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 3,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 2,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS890",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 3,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 2,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS999",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 3,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 2,
+                            "orientation": "east"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "buildingSpaceId": "BS701",
+            "spaceName": "Apartment 101",
+            "floorHeight": 3.5,
+            "rooms": [
+                {
+                    "roomType": "bedroom",
+                    "name": "Master Bedroom",
+                    "area": 3,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 4,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 2,
+                            "orientation": "east"
+                        }
+                    ]
+                },
+                {
+                    "roomType": "washroom",
+                    "name": "washroom",
+                    "area": 10,
+                    "exteriorWallArea": 15,
+                    "windows": [
+                        {
+                            "area": 1,
+                            "orientation": "north"
+                        },
+                        {
+                            "area": 3.5,
+                            "orientation": "west"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

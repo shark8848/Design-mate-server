@@ -1,0 +1,71 @@
+{
+    "designLimits": {
+        "coolingLoad": {
+            "upperLimit": 1000,
+            "lowerLimit": 500
+        },
+        "heatingLoad": {
+            "upperLimit": 1200,
+            "lowerLimit": 500
+        }
+    },
+    "numberOfFloors": {
+        "aboveGround": 5,
+        "belowGround": 0
+    },
+    "organizationCode": "wanke",
+    "projectId": "proj003",
+    "buildingId": "zf-test002",
+    "buildingExternalSurfaceArea": 1500,
+    "buildingHeight": 12.5,
+    "buildingVolume": 25000,
+    "northAngle": 20,
+    "formFactor": 0.75,
+    "buildingName": "zf-test002",
+    "buildingOrientation": "East",
+    "structuralType": "Frame Structure",
+    "floors": [
+        {
+            "floorId": 1,
+            "buildingSpacesId": [
+                "bs-099"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 2,
+            "buildingSpacesId": [
+                "bs-008",
+                "bs-011"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 3,
+            "buildingSpacesId": [
+                "bs-009",
+                "bs-007",
+                "bs-011",
+                "bs-008"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 4,
+            "buildingSpacesId": [
+                "bs-009",
+                "bs-007",
+                "bs-011"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 5,
+            "buildingSpacesId": [
+                "bs-015",
+                "bs-099"
+            ],
+            "height": 3
+        }
+    ]
+}

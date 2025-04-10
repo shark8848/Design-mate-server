@@ -1,0 +1,12 @@
+{
+        "Orientation": {
+                "North": "正北",
+                "Northeast": "东北",
+                "East": "正东",
+                "Southeast": "东南",
+                "South": "正南",
+                "Southwest": "西南",
+                "West": "正西",
+                "Northwest": "西北"
+        }
+}

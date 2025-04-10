@@ -1,0 +1,27 @@
+{
+    "organizationCode": "wanke",
+    "projectId": "ss",
+    "buildingId": "B011",
+    "buildingName": "My Building",
+    "buildingOrientation": "South",
+    "numberOfFloors": {
+        "aboveGround": 3,
+        "belowGround": 1
+    },
+    "buildingHeight": 12.5,
+    "buildingVolume": 25000,
+    "buildingExternalSurfaceArea": 1500,
+    "formFactor": 0.75,
+    "northAngle": 20,
+    "structuralType": "Steel Frame",
+    "designLimits": {
+        "coolingLoad": {
+            "upperLimit": 1000,
+            "lowerLimit": 500
+        },
+        "heatingLoad": {
+            "upperLimit": 1200,
+            "lowerLimit": 500
+        }
+    }
+}

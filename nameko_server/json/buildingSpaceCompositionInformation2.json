@@ -1,0 +1,1370 @@
+{
+    "organizations": [
+        {
+            "organizationCode": "wanke",
+            "projects": [
+                {
+                    "projectId": "proj002",
+                    "buildingSpace": [
+                        {
+                            "buildingSpaceId": "BS008",
+                            "spaceName": "Main Office",
+                            "floorHeight": 3.5,
+                            "rooms": [
+                                {
+                                    "roomType": "Office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "orientation": "South"
+                                        },
+                                        {
+                                            "area": 2,
+                                            "orientation": "East"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "Conference",
+                                    "name": "Conference Room 1",
+                                    "area": 50,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "North"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-001",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-002",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-003",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "projectId": "proj003",
+                    "buildingSpace": [
+                        {
+                            "buildingSpaceId": "bs-008",
+                            "spaceName": "一厨一卫",
+                            "floorHeight": 4,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-009",
+                            "spaceName": "三室一厅",
+                            "floorHeight": 4,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 30,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 20,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-010",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-011",
+                            "spaceName": "三室两厅",
+                            "floorHeight": 4,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 50,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 40,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-012",
+                            "spaceName": "大平层",
+                            "floorHeight": 3,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 50,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 40,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-013",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-014",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.3,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-019",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-033",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-080",
+                            "spaceName": "Office Space-01",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-099",
+                            "spaceName": "两室一厅",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-015",
+                            "spaceName": "四室两厅",
+                            "floorHeight": 5,
+                            "rooms": [
+                                {
+                                    "roomType": "Dining room",
+                                    "name": "living",
+                                    "area": 20,
+                                    "exteriorWallArea": 5,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "Bedroom",
+                                    "name": "room",
+                                    "area": 30,
+                                    "exteriorWallArea": 6,
+                                    "windows": [
+                                        {
+                                            "area": 6,
+                                            "orientation": "east"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "Kitchen",
+                                    "name": "kicthen",
+                                    "area": 10,
+                                    "exteriorWallArea": 4,
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "Common area",
+                                    "name": "meeting",
+                                    "area": 15,
+                                    "exteriorWallArea": 7,
+                                    "windows": [
+                                        {
+                                            "area": 10,
+                                            "orientation": "west"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "II",
+                            "floorHeight": 3,
+                            "rooms": [
+                                {
+                                    "name": "UU",
+                                    "roomType": "Living room",
+                                    "area": 10,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 4,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "windows": [
+                                        {
+                                            "area": 4,
+                                            "orientation": "west"
+                                        },
+                                        {
+                                            "area": 4,
+                                            "orientation": "north"
+                                        }
+                                    ],
+                                    "name": "YY",
+                                    "roomType": "Dining room",
+                                    "area": 10,
+                                    "exteriorWallArea": 10
+                                },
+                                {
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 4,
+                                            "orientation": "south"
+                                        }
+                                    ],
+                                    "name": "RR",
+                                    "roomType": "Bathroom",
+                                    "area": 10,
+                                    "exteriorWallArea": 10
+                                },
+                                {
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ],
+                                    "name": "EE",
+                                    "roomType": "Bathroom",
+                                    "area": 10,
+                                    "exteriorWallArea": 10
+                                },
+                                {
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "west"
+                                        }
+                                    ],
+                                    "name": "WW",
+                                    "roomType": "Common area",
+                                    "area": 10,
+                                    "exteriorWallArea": 10
+                                },
+                                {
+                                    "windows": [
+                                        {
+                                            "area": 4,
+                                            "orientation": "west"
+                                        },
+                                        {
+                                            "area": 4,
+                                            "orientation": "west"
+                                        }
+                                    ],
+                                    "name": "QQ",
+                                    "roomType": "Corridor",
+                                    "area": 10,
+                                    "exteriorWallArea": 10
+                                },
+                                {
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "orientation": "west"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "east"
+                                        }
+                                    ],
+                                    "name": "PP",
+                                    "roomType": "Bathroom",
+                                    "area": 10,
+                                    "exteriorWallArea": 10
+                                }
+                            ],
+                            "spaceName": "II"
+                        },
+                        {
+                            "buildingSpaceId": "test-spaceType",
+                            "floorHeight": 3,
+                            "rooms": [
+                                {
+                                    "name": "test-room",
+                                    "roomType": "Bedroom",
+                                    "area": 10,
+                                    "exteriorWallArea": 4,
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "orientation": "south",
+                                            "glassMaterial": 2,
+                                            "wf_material": 11
+                                        }
+                                    ],
+                                    "wallMaterial": 1
+                                }
+                            ],
+                            "spaceName": "test-spaceName"
+                        },
+                        {
+                            "buildingSpaceId": "test002",
+                            "spaceName": "test002",
+                            "floorHeight": 5,
+                            "rooms": [
+                                {
+                                    "roomType": "Bedroom",
+                                    "name": "test002room",
+                                    "area": 10,
+                                    "exteriorWallArea": 10,
+                                    "wallMaterial": 2,
+                                    "windows": [
+                                        {
+                                            "area": 4,
+                                            "orientation": "south",
+                                            "glassMaterial": 13,
+                                            "wf_material": 18
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "test003",
+                            "floorHeight": 6,
+                            "rooms": [
+                                {
+                                    "name": "test003room",
+                                    "roomType": "Common area",
+                                    "area": 100,
+                                    "exteriorWallArea": 30,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "north",
+                                            "glassMaterial": 6,
+                                            "wf_material": 0
+                                        }
+                                    ],
+                                    "wallMaterial": 2
+                                }
+                            ],
+                            "spaceName": "test003"
+                        },
+                        {
+                            "buildingSpaceId": "zf-test002-1687318441240",
+                            "floorHeight": 4,
+                            "rooms": [
+                                {
+                                    "area": 29,
+                                    "roomType": "Living room",
+                                    "name": "客厅",
+                                    "exteriorWallArea": 10,
+                                    "wallMaterial": 3,
+                                    "windows": [
+                                        {
+                                            "area": 6,
+                                            "glassMaterial": 0,
+                                            "orientation": "east",
+                                            "wf_material": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "area": 35,
+                                    "roomType": "Bedroom",
+                                    "name": "主卧",
+                                    "exteriorWallArea": 14,
+                                    "wallMaterial": 1,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "glassMaterial": 1,
+                                            "orientation": "north",
+                                            "wf_material": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "area": 13,
+                                    "roomType": "Kitchen",
+                                    "name": "厨房",
+                                    "exteriorWallArea": 6,
+                                    "wallMaterial": 1,
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "glassMaterial": 2,
+                                            "orientation": "south",
+                                            "wf_material": 2
+                                        },
+                                        {
+                                            "area": 3,
+                                            "glassMaterial": 2,
+                                            "orientation": "east",
+                                            "wf_material": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "area": 15,
+                                    "roomType": "Bathroom",
+                                    "name": "主卫",
+                                    "exteriorWallArea": 6,
+                                    "wallMaterial": 1,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "glassMaterial": 3,
+                                            "orientation": "north",
+                                            "wf_material": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "area": 15,
+                                    "roomType": "Dining room",
+                                    "name": "餐厅",
+                                    "exteriorWallArea": 6,
+                                    "wallMaterial": 3,
+                                    "windows": [
+                                        {
+                                            "area": 6,
+                                            "glassMaterial": 4,
+                                            "orientation": "east",
+                                            "wf_material": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "area": 13,
+                                    "roomType": "Book room",
+                                    "name": "书房",
+                                    "exteriorWallArea": 6,
+                                    "wallMaterial": 2,
+                                    "windows": [
+                                        {
+                                            "area": 4,
+                                            "glassMaterial": 5,
+                                            "orientation": "south",
+                                            "wf_material": 5
+                                        }
+                                    ]
+                                },
+                                {
+                                    "area": 7,
+                                    "roomType": "Bathroom",
+                                    "name": "卫生间",
+                                    "exteriorWallArea": 3,
+                                    "wallMaterial": 1,
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "glassMaterial": 6,
+                                            "orientation": "west",
+                                            "wf_material": 6
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spaceName": "模板生成zf-test002-1687318441240"
+                        },
+                        {
+                            "buildingSpaceId": "zf-test002-1687318711775",
+                            "spaceName": "基础户型模板A-zf-test002-1687318711775",
+                            "floorHeight": 4,
+                            "rooms": [
+                                {
+                                    "roomType": "Living room",
+                                    "name": "客厅",
+                                    "area": 29,
+                                    "exteriorWallArea": 10,
+                                    "wallMaterial": 3,
+                                    "windows": [
+                                        {
+                                            "area": 6,
+                                            "orientation": "east",
+                                            "glassMaterial": 0,
+                                            "wf_material": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "Bedroom",
+                                    "name": "主卧",
+                                    "area": 35,
+                                    "exteriorWallArea": 14,
+                                    "wallMaterial": 1,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north",
+                                            "glassMaterial": 1,
+                                            "wf_material": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "Kitchen",
+                                    "name": "厨房",
+                                    "area": 13,
+                                    "exteriorWallArea": 6,
+                                    "wallMaterial": 1,
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "orientation": "south",
+                                            "glassMaterial": 2,
+                                            "wf_material": 2
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "east",
+                                            "glassMaterial": 2,
+                                            "wf_material": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "Bathroom",
+                                    "name": "主卫",
+                                    "area": 15,
+                                    "exteriorWallArea": 6,
+                                    "wallMaterial": 1,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "north",
+                                            "glassMaterial": 3,
+                                            "wf_material": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "Dining room",
+                                    "name": "餐厅",
+                                    "area": 15,
+                                    "exteriorWallArea": 6,
+                                    "wallMaterial": 3,
+                                    "windows": [
+                                        {
+                                            "area": 6,
+                                            "orientation": "east",
+                                            "glassMaterial": 4,
+                                            "wf_material": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "Book room",
+                                    "name": "书房",
+                                    "area": 13,
+                                    "exteriorWallArea": 6,
+                                    "wallMaterial": 2,
+                                    "windows": [
+                                        {
+                                            "area": 4,
+                                            "orientation": "south",
+                                            "glassMaterial": 5,
+                                            "wf_material": 5
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "Bathroom",
+                                    "name": "卫生间",
+                                    "area": 7,
+                                    "exteriorWallArea": 3,
+                                    "wallMaterial": 1,
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "orientation": "west",
+                                            "glassMaterial": 6,
+                                            "wf_material": 6
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "zf-test002-1687318947399",
+                            "spaceName": "kkkkk",
+                            "floorHeight": 4,
+                            "rooms": [
+                                {
+                                    "roomType": "Living room",
+                                    "name": "客厅",
+                                    "area": 29,
+                                    "exteriorWallArea": 10,
+                                    "wallMaterial": 3,
+                                    "windows": [
+                                        {
+                                            "area": 6,
+                                            "orientation": "east",
+                                            "glassMaterial": 0,
+                                            "wf_material": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "Bedroom",
+                                    "name": "主卧",
+                                    "area": 35,
+                                    "exteriorWallArea": 14,
+                                    "wallMaterial": 1,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north",
+                                            "glassMaterial": 1,
+                                            "wf_material": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "Kitchen",
+                                    "name": "厨房",
+                                    "area": 13,
+                                    "exteriorWallArea": 6,
+                                    "wallMaterial": 1,
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "orientation": "south",
+                                            "glassMaterial": 2,
+                                            "wf_material": 2
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "east",
+                                            "glassMaterial": 2,
+                                            "wf_material": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "Bathroom",
+                                    "name": "主卫",
+                                    "area": 15,
+                                    "exteriorWallArea": 6,
+                                    "wallMaterial": 1,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "north",
+                                            "glassMaterial": 3,
+                                            "wf_material": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "Dining room",
+                                    "name": "餐厅",
+                                    "area": 15,
+                                    "exteriorWallArea": 6,
+                                    "wallMaterial": 3,
+                                    "windows": [
+                                        {
+                                            "area": 6,
+                                            "orientation": "east",
+                                            "glassMaterial": 4,
+                                            "wf_material": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "Book room",
+                                    "name": "书房",
+                                    "area": 13,
+                                    "exteriorWallArea": 6,
+                                    "wallMaterial": 2,
+                                    "windows": [
+                                        {
+                                            "area": 4,
+                                            "orientation": "south",
+                                            "glassMaterial": 5,
+                                            "wf_material": 5
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "Bathroom",
+                                    "name": "卫生间",
+                                    "area": 7,
+                                    "exteriorWallArea": 3,
+                                    "wallMaterial": 1,
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "orientation": "west",
+                                            "glassMaterial": 6,
+                                            "wf_material": 6
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "projectId": "proj110",
+                    "buildingSpace": [
+                        {
+                            "buildingSpaceId": "两室一厅",
+                            "floorHeight": 3,
+                            "rooms": [
+                                {
+                                    "name": "room1",
+                                    "roomType": "Bedroom",
+                                    "area": 15,
+                                    "exteriorWallArea": 5,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "windows": [
+                                        {
+                                            "area": 10,
+                                            "orientation": "east"
+                                        }
+                                    ],
+                                    "name": "living",
+                                    "roomType": "Dining room",
+                                    "area": 30,
+                                    "exteriorWallArea": 20
+                                },
+                                {
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ],
+                                    "name": "room2",
+                                    "roomType": "Bedroom",
+                                    "area": 20,
+                                    "exteriorWallArea": 10
+                                }
+                            ],
+                            "spaceName": "bighouse"
+                        }
+                    ]
+                },
+                {
+                    "projectId": "proj120",
+                    "buildingSpace": [
+                        {
+                            "buildingSpaceId": "一室一厅",
+                            "floorHeight": 5,
+                            "rooms": [
+                                {
+                                    "name": "living",
+                                    "roomType": "Dining room",
+                                    "area": 30,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 10,
+                                            "orientation": "east"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "north"
+                                        }
+                                    ],
+                                    "name": "room",
+                                    "roomType": "Bedroom",
+                                    "area": 20,
+                                    "exteriorWallArea": 10
+                                }
+                            ],
+                            "spaceName": "smallhouse"
+                        },
+                        {
+                            "buildingSpaceId": "house2",
+                            "floorHeight": 5,
+                            "rooms": [
+                                {
+                                    "name": "room1",
+                                    "roomType": "Bedroom",
+                                    "area": 20,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "west"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "windows": [
+                                        {
+                                            "area": 10,
+                                            "orientation": "north"
+                                        }
+                                    ],
+                                    "name": "room2",
+                                    "roomType": "Bedroom",
+                                    "area": 30,
+                                    "exteriorWallArea": 15
+                                },
+                                {
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "orientation": "north"
+                                        }
+                                    ],
+                                    "name": "living",
+                                    "roomType": "Dining room",
+                                    "area": 15,
+                                    "exteriorWallArea": 5
+                                }
+                            ],
+                            "spaceName": "一室两厅"
+                        }
+                    ]
+                },
+                {
+                    "projectId": "proj007",
+                    "buildingSpace": [
+                        {
+                            "buildingSpaceId": "a01",
+                            "floorHeight": 5,
+                            "rooms": [
+                                {
+                                    "name": "keting",
+                                    "roomType": "Living room",
+                                    "area": 30,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "south"
+                                        }
+                                    ],
+                                    "name": "room",
+                                    "roomType": "Bedroom",
+                                    "area": 20,
+                                    "exteriorWallArea": 8
+                                }
+                            ],
+                            "spaceName": "一室一厅"
+                        },
+                        {
+                            "buildingSpaceId": "a02",
+                            "floorHeight": 5,
+                            "rooms": [
+                                {
+                                    "name": "room1",
+                                    "roomType": "Bedroom",
+                                    "area": 30,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "windows": [],
+                                    "name": "room2",
+                                    "roomType": "Bedroom",
+                                    "area": 20,
+                                    "exteriorWallArea": 10
+                                },
+                                {
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "orientation": "east"
+                                        }
+                                    ],
+                                    "name": "living",
+                                    "roomType": "Dining room",
+                                    "area": 15,
+                                    "exteriorWallArea": 5
+                                }
+                            ],
+                            "spaceName": "一室两厅"
+                        },
+                        {
+                            "buildingSpaceId": "a03",
+                            "floorHeight": 5,
+                            "rooms": [
+                                {
+                                    "name": "living",
+                                    "roomType": "Dining room",
+                                    "area": 20,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "windows": [
+                                        {
+                                            "area": 1,
+                                            "orientation": "east"
+                                        }
+                                    ],
+                                    "name": "wc",
+                                    "roomType": "Bathroom",
+                                    "area": 8,
+                                    "exteriorWallArea": 4
+                                }
+                            ],
+                            "spaceName": "一厨一卫"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+starting services: generate_service
+Connected to amqp://guest:**@192.168.1.19:5672//
+20230216 20:25:19  SQLiteDbPool.__init__:17  INFO: db_urlsqlite:////home/apoco/ai_micro_services/apoco_intelligent_inalytics/database/apoco_ai_masterdb.db
+20230216 20:25:19  SQLiteDbPool.__init__:20  INFO: create engine successfully.
+20230216 20:25:19  SQLiteDbPool.__init__:27  INFO: create session successfully.
+starting services: usersService
+Connected to amqp://guest:**@192.168.1.19:5672//

@@ -1,0 +1,119 @@
+{
+    "type": "object",
+    "properties": {
+        "organizationCode": {
+            "type": "string"
+        },
+        "projectId": {
+            "type": "string"
+        },
+        "houseTemplate": {
+            "type": "object",
+            "properties": {
+                "templateName": {
+                    "type": "string"
+                },
+                "floorHeight": {
+                    "type": "number",
+                    "minimum": 2.5,
+                    "maximum": 3.5
+                },
+                "rooms": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "room_name": {
+                                "type": "string"
+                            },
+                            "room_type": {
+                                "type": "integer",
+                                "enum": [0,1,2,3,4,5,6,7,8,9,10,11]
+                            },
+                            "room_length": {
+                                "type": "number",
+                                "minimum": 0.001,
+                                "maximum": 50.00                                
+                            },
+                            "room_width": {
+                                "type": "number",
+                                "minimum": 0.001,
+                                "maximum": 50.00
+                            },
+                            "room_height": {
+                                "type": "number",
+                                "minimum": 2.5,
+                                "maximum": 3.5
+                            },
+                            "walls": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "orientation": {
+                                            "type": "integer",
+                                            "enum": [0,1,2,3]
+                                        },
+                                        "wall_width": {
+                                            "type": "number",
+                                            "minimum": 0.001,
+                                            "maximum": 50.00
+                                        },
+                                        "wall_height": {
+                                            "type": "number",
+                                            "minimum": 2.5,
+                                            "maximum": 3.5
+                                        },
+                                        "window": {
+                                            "type": "object",
+                                            "minProperties": 0,
+                                            "properties": {
+                                                "orientation": {
+                                                    "type": "integer",
+                                                    "enum": [0,1,2,3]
+                                                },
+                                                "window_width": {
+                                                    "type": "number",
+                                                    "minimum": 0.001,
+                                                    "maximum": 50.00
+                                                },
+                                                "window_height": {
+                                                    "type": "number",
+                                                    "minimum": 0.001,
+                                                    "maximum": 3.50
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "required": [
+                                    "orientation",
+                                    "wall_width",
+                                    "wall_height"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "room_name",
+                            "room_type",
+                            "room_length",
+                            "room_width",
+                            "room_height",
+                            "walls"
+                        ]
+                    }
+                }
+            },
+            "required": [
+                "templateName",
+                "floorHeight",
+                "rooms"
+            ]
+        }
+    },
+    "required": [
+        "organizationCode",
+        "projectId",
+        "houseTemplate"
+    ]
+}

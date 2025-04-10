@@ -1,0 +1,27 @@
+{
+    "designLimits": {
+        "coolingLoad": {
+            "upperLimit": 1000,
+            "lowerLimit": 500
+        },
+        "heatingLoad": {
+            "upperLimit": 2000,
+            "lowerLimit": 100
+        }
+    },
+    "numberOfFloors": {
+        "aboveGround": 30,
+        "belowGround": 1
+    },
+    "organizationCode": "wanke",
+    "projectId": "proj003",
+    "buildingId": "test2",
+    "buildingExternalSurfaceArea": 1000,
+    "buildingHeight": 120,
+    "buildingVolume": 6000,
+    "northAngle": 10,
+    "formFactor": 0.7,
+    "buildingName": "一单元",
+    "buildingOrientation": "North",
+    "structuralType": "Frame Structure"
+}

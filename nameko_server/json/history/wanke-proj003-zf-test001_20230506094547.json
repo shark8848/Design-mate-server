@@ -1,0 +1,27 @@
+{
+    "designLimits": {
+        "coolingLoad": {
+            "upperLimit": 1000,
+            "lowerLimit": 500
+        },
+        "heatingLoad": {
+            "upperLimit": 1200,
+            "lowerLimit": 500
+        }
+    },
+    "numberOfFloors": {
+        "aboveGround": 3,
+        "belowGround": 0
+    },
+    "organizationCode": "wanke",
+    "projectId": "proj003",
+    "buildingId": "zf-test001",
+    "buildingExternalSurfaceArea": 1500,
+    "buildingHeight": 12.5,
+    "buildingVolume": 25000,
+    "northAngle": 20,
+    "formFactor": 0.75,
+    "buildingName": "zf-test",
+    "buildingOrientation": "East",
+    "structuralType": "Frame Structure"
+}

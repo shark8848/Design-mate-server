@@ -1,0 +1,14 @@
+buildingClassificationsService
+buildingSpaceCompositionInformationService
+buildingSpaceTypeService
+organizationsService
+projectBuildingsService
+projectsService
+usersService
+rolesService
+permissionsService
+securityService
+climateZoneService
+BasicInformationConfigurationService
+houseTemplateService
+houseInstanceService

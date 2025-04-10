@@ -1,0 +1,29 @@
+{
+  "organizationCode": "wanke",
+  "projectId": "proj001",
+  "buildingSpace": [
+    {
+      "buildingSpaceId": "BS601",
+      "spaceName": "Apartment 101",
+      "floorHeight": 3.5,
+      "rooms": [
+        {
+          "roomType": "bedroom",
+          "name": "Master Bedroom",
+          "area": 3,
+          "exteriorWallArea": 15,
+          "windows": [
+            {
+              "area": 4,
+              "orientation": "north"
+            },
+            {
+              "area": 2,
+              "orientation": "east"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

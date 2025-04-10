@@ -1,0 +1,41 @@
+{
+	"type": "object",
+	"properties": {
+	    "organizationCode": {"type": "string", "minLength": 1},
+	    "projectId": {"type": "string"},
+	    "buildingSpace":{
+	        "type": "object",
+	    	"properties": {
+				"buildingSpaceId": {"type": "string", "minLength": 1},
+				"spaceName": {"type": "string", "minLength": 1},
+				"floorHeight": {"type": "number", "minimum": 0.0, "maximum": 10000.0},
+				"rooms": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"roomType": {"type": "string", "minLength": 1},
+							"name": {"type": "string", "minLength": 1},
+							"area": {"type": "number", "minimum": 0.0, "maximum": 10000.0},
+							"exteriorWallArea": {"type": "number", "minimum": 0.0, "maximum": 10000.0},
+							"windows": {
+								"type": "array",
+								"items": {
+									"type": "object",
+									"properties": {
+										"area": {"type": "number", "minimum": 0.0, "maximum": 10000.0},
+										"orientation": {"type": "string", "minLength": 1}
+									},
+									"required": ["area", "orientation"]
+								}
+							}
+						},
+						"required": ["roomType", "name", "area", "exteriorWallArea", "windows"]
+					}
+	    		}
+			},
+			"required": ["buildingSpaceId", "spaceName", "floorHeight", "rooms"]
+		}
+	},
+	"required": ["organizationCode", "projectId", "buildingSpace"]
+}

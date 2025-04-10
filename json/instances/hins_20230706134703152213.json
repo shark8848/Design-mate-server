@@ -1,0 +1,120 @@
+{
+    "h_name": "cs008",
+    "h_total_area": 16.0003,
+    "h_total_room_num": 1,
+    "h_total_wall_num": 2,
+    "h_total_wall_area": 18,
+    "h_total_window_area": 2,
+    "h_total_window_num": 2,
+    "h_height": 3,
+    "h_total_avg_k": 0.3747,
+    "h_total_avg_ww_ratio": 0.1111,
+    "h_total_cost": 1279.82,
+    "rooms": [
+        {
+            "room_type": 0,
+            "room_area": 16.0003,
+            "room_length": 3.5565,
+            "room_width": 4.4989,
+            "room_height": 3.0,
+            "total_wall_area": 18,
+            "total_window_area": 2,
+            "ww_ratio": 0.1111,
+            "walls": [
+                {
+                    "orientation": 0,
+                    "area": 9,
+                    "wall_width": 3,
+                    "wall_height": 3,
+                    "insulation_material": {
+                        "name": "20mm厚度不燃型复合膨胀聚苯乙烯保温板 ( A 级)",
+                        "thickness": 20,
+                        "price": 63.85,
+                        "K": 0.065,
+                        "level": 1
+                    },
+                    "wall_avg_k": 0.3064,
+                    "window": {
+                        "area": 1,
+                        "window_wall_ratio": 0.1111,
+                        "window_width": 1,
+                        "window_height": 1,
+                        "orientation": 0,
+                        "glass_material": {
+                            "descriptions": "6中透光Low-E+12A+6透明",
+                            "S_D": 2,
+                            "thickness": 6,
+                            "coating": 1,
+                            "hollow_material": 12,
+                            "price": 123.82,
+                            "K": 1.8628
+                        },
+                        "wfa_ratio": 0.2801,
+                        "glass_area": 1,
+                        "wf_material": {
+                            "type": "WF-001",
+                            "material": "L01",
+                            "area": 22.0,
+                            "width": 4.0,
+                            "height": 3.0,
+                            "frame_area": 2.4,
+                            "price": 120,
+                            "window_frame_area_ratio": 0.2,
+                            "K": 3.2
+                        },
+                        "wf_area": 0.389
+                    }
+                },
+                {
+                    "orientation": 2,
+                    "area": 9,
+                    "wall_width": 3,
+                    "wall_height": 3,
+                    "insulation_material": {
+                        "name": "20mm厚度不燃型复合膨胀聚苯乙烯保温板 ( A 级)",
+                        "thickness": 20,
+                        "price": 63.85,
+                        "K": 0.065,
+                        "level": 1
+                    },
+                    "wall_avg_k": 0.4429,
+                    "window": {
+                        "area": 1,
+                        "window_wall_ratio": 0.1111,
+                        "window_width": 1,
+                        "window_height": 1,
+                        "orientation": 2,
+                        "glass_material": {
+                            "descriptions": "单层LOW-E玻璃",
+                            "S_D": 1,
+                            "thickness": 5,
+                            "coating": 1,
+                            "hollow_material": 0,
+                            "price": 41.04,
+                            "K": 3.57
+                        },
+                        "wfa_ratio": 0.2801,
+                        "glass_area": 1,
+                        "wf_material": {
+                            "type": "WF-001",
+                            "material": "L01",
+                            "area": 36.0,
+                            "width": 4.0,
+                            "height": 3.0,
+                            "frame_area": 2.4,
+                            "price": 120,
+                            "window_frame_area_ratio": 0.2,
+                            "K": 3.2
+                        },
+                        "wf_area": 0.389
+                    }
+                }
+            ],
+            "total_cost_im": 1021.6,
+            "total_cost_g": 164.86,
+            "total_cost_wf": 93.36,
+            "total_cost": 1279.82,
+            "total_avg_k": 0.3747
+        }
+    ]
+}

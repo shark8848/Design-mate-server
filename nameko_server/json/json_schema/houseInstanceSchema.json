@@ -1,0 +1,366 @@
+{
+    "type": "object",
+    "properties": {
+        "organizationCode": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 20
+        },
+        "projectId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 20
+        },
+        "buildingId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 20
+        },
+        "houseInstance": {
+            "type": "object",
+            "properties": {
+                "templateId": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                },
+                "instanceId": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                },
+                "instanceName": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 20
+                },
+                "floorHeight": {
+                    "type": "number",
+                    "minimum": 2.5,
+                    "maximum": 3.5
+                },
+                "rooms": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "room_name": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 20
+                            },
+                            "room_type": {
+                                "type": "integer",
+                                "enum": [
+                                    0,
+                                    1,
+                                    2,
+                                    3,
+                                    4,
+                                    5,
+                                    6,
+                                    7,
+                                    8,
+                                    9,
+                                    10,
+                                    11
+                                ]
+                            },
+                            "room_length": {
+                                "type": "number",
+                                "minimum": 1.0,
+                                "maximum": 50.0
+                            },
+                            "room_width": {
+                                "type": "number",
+                                "minimum": 1.0,
+                                "maximum": 50.0
+                            },
+                            "room_height": {
+                                "type": "number",
+                                "minimum": 2.5,
+                                "maximum": 3.5
+                            },
+                            "room_area": {
+                                "type": "number",
+                                "minimum": 1.0,
+                                "maximum": 2500.0
+                            },
+                            "total_wall_area": {
+                                "type": "number",
+                                "minimum": 1.0,
+                                "maximum": 175.0
+                            },
+                            "total_window_area": {
+                                "type": "number",
+                                "minimum": 1.0,
+                                "maximum": 175.0
+                            },
+                            "walls": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "orientation": {
+                                            "type": "integer",
+                                            "enum": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ]
+                                        },
+                                        "wall_width": {
+                                            "type": "number",
+                                            "minimum": 1.0,
+                                            "maximum": 50.0
+                                        },
+                                        "wall_height": {
+                                            "type": "number",
+                                            "minimum": 1.0,
+                                            "maximum": 50.0
+                                        },
+                                        "wall_area": {
+                                            "type": "number",
+                                            "minimum": 1.0,
+                                            "maximum": 2500.0
+                                        },
+                                        "wall_material": {
+                                            "type": "object",
+                                            "properties": {
+                                                "key": {
+                                                    "type": "number",
+                                                    "minimum": 0,
+                                                    "maximum": 3
+                                                },
+                                                "name": {
+                                                    "type": "string",
+                                                    "minLength": 1,
+                                                    "maxLength": 20
+                                                },
+                                                "thickness": {
+                                                    "type": "number",
+                                                    "minimum": 0.0,
+                                                    "maximum": 200.0
+                                                },
+                                                "price": {
+                                                    "type": "number",
+                                                    "minimum": 0.0
+                                                },
+                                                "K": {
+                                                    "type": "number",
+                                                    "minimum": 0.0,
+                                                    "maximum": 1.0
+                                                },
+                                                "level": {
+                                                    "type": "string",
+                                                    "minLength": 0,
+                                                    "maxLength": 5
+                                                }
+                                            },
+                                            "required": [
+                                                "key"
+                                            ],
+                                            "uniqueItems": false
+                                        },
+                                        "window": {
+                                            "type": "object",
+                                            "minProperties": 0,
+                                            "properties":{
+                                                "window_area": {
+                                                    "type": "number",
+                                                    "minimum": 0.0001,
+                                                    "maximum": 175.0
+                                                },
+                                                "window_wall_ratio": {
+                                                    "type": "number",
+                                                    "minimum": 0.0,
+                                                    "maximum": 1.0
+                                                },
+                                                "window_width": {
+                                                    "type": "number",
+                                                    "minimum": 0.0001,
+                                                    "maximum": 50.0
+                                                },
+                                                "window_height": {
+                                                    "type": "number",
+                                                    "minimum": 0.0001,
+                                                    "maximum": 50.0
+                                                },
+                                                "orientation": {
+                                                    "type": "integer",
+                                                    "enum": [
+                                                        0,
+                                                        1,
+                                                        2,
+                                                        3
+                                                    ]
+                                                },
+                                                "glass_material": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "key": {
+                                                            "type": "number",
+                                                            "minimum": 0.0,
+                                                            "maximum": 100.0
+                                                        },
+                                                        "descriptions": {
+                                                            "type": "string",
+                                                            "minLength": 1,
+                                                            "maxLength": 50
+                                                        },
+                                                        "S_D": {
+                                                            "type": "number",
+                                                            "minimum": 0,
+                                                            "maximum": 3
+                                                        },
+                                                        "thickness": {
+                                                            "type": "number",
+                                                            "minimum": 0.0,
+                                                            "maximum": 15.0
+                                                        },
+                                                        "coating": {
+                                                            "type": "number",
+                                                            "minimum": 0.0,
+                                                            "maximum": 100.0
+                                                        },
+                                                        "hollow_thickness": {
+                                                            "type": "number",
+                                                            "minimum": 0.0,
+                                                            "maximum": 15.0
+                                                        },
+                                                        "hollow_material": {
+                                                            "type": "string",
+                                                            "minLength": 0,
+                                                            "maxLength": 10
+                                                        },
+                                                        "price": {
+                                                            "type": "number",
+                                                            "minimum": 0.0
+                                                        },
+                                                        "K": {
+                                                            "type": "number",
+                                                            "minimum": 0.0,
+                                                            "maximum": 10.0
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "key"
+                                                    ],
+                                                    "uniqueItems": false
+                                                },
+                                                "wfa_ratio": {
+                                                    "type": "number",
+                                                    "minimum": 0.0,
+                                                    "maximum": 1.0
+                                                },
+                                                "glass_area": {
+                                                    "type": "number",
+                                                    "minimum": 0.0,
+                                                    "maximum": 175.0
+                                                },
+                                                "wf_area": {
+                                                    "type": "number",
+                                                    "minimum": 0.0,
+                                                    "maxLength": 175.0
+                                                },
+                                                "wf_material": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "key": {
+                                                            "type": "number",
+                                                            "minimum": 0.0,
+                                                            "maximum": 10000.0
+                                                        },
+                                                        "description": {
+                                                            "type": "string",
+                                                            "minLength": 1,
+                                                            "maxLength": 50
+                                                        },
+                                                        "material": {
+                                                            "type": "string",
+                                                            "minLength": 1,
+                                                            "maxLength": 10
+                                                        },
+                                                        "type": {
+                                                            "type": "string",
+                                                            "minLength": 1,
+                                                            "maxLength": 20
+                                                        },
+                                                        "price": {
+                                                            "type": "number",
+                                                            "minimum": 0.0
+                                                        },
+                                                        "K": {
+                                                            "type": "number",
+                                                            "minimum": 0.0,
+                                                            "maximum": 10.0
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "key"
+                                                    ],
+                                                    "uniqueItems": false
+                                                }
+                                            },
+                                            "uniqueItems": false
+                                        }
+                                    },
+                                    "required": [
+                                        "orientation",
+                                        "wall_width",
+                                        "wall_height",
+                                        "wall_material",
+                                        "window"
+
+                                    ]
+                                },
+                                "uniqueItems": false
+                            },
+                            "total_cost_im": {
+                                "type": "number",
+                                "minimum": 0.0
+                            },
+                            "total_cost_g": {
+                                "type": "number",
+                                "minimum": 0.0
+                            },
+                            "total_cost_wf": {
+                                "type": "number",
+                                "minimum": 0.0
+                            },
+                            "total_cost": {
+                                "type": "number",
+                                "minimum": 0.0
+                            },
+                            "total_avg_k": {
+                                "type": "number",
+                                "minimum": 0.0,
+                                "maximum": 10.0
+                            }
+                        },
+                        "required": [
+                            "room_type",
+                            "room_length",
+                            "room_height",
+                            "walls"
+                        ]
+                    },
+                    "uniqueItems": false
+                },
+                "required": [
+                    "templateId",
+                    "instanceName",
+                    "floorHeight",
+                    "rooms"
+                ]
+            },
+            "uniqueItems": false
+        }
+    },
+    "required": [
+        "organizationCode",
+        "projectId",
+        "buildingId"
+    ]
+}

@@ -1,0 +1,9 @@
+flask_jwt_server.py
+nameko
+webSocketServer_MQ_tokenAuth.py
+monitorServer_MQ_tokenAuth.py
+MonitorDataCollector.py
+AC2NNetPredicter.py
+AC2NNetTrainer.py
+redis-server
+rabbitmq-server

@@ -1,0 +1,18 @@
+[
+  {
+    "classCode": "Residential buildings",
+    "className": "住宅建筑"
+  },
+  {
+    "classCode": "Industrial buildings",
+    "className": "工业建筑"
+  },
+  {
+    "classCode": "Commercial buildings",
+    "className": "商业建筑"
+  },
+  {
+    "classCode": "Public buildings",
+    "className": "公共建筑"
+  }
+]

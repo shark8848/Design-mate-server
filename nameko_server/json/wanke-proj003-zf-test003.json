@@ -1,0 +1,315 @@
+{
+    "designLimits": {
+        "coolingLoad": {
+            "upperLimit": 1500,
+            "lowerLimit": 500
+        },
+        "heatingLoad": {
+            "upperLimit": 1200,
+            "lowerLimit": 500
+        }
+    },
+    "numberOfFloors": {
+        "aboveGround": 34,
+        "belowGround": 0
+    },
+    "organizationCode": "wanke",
+    "projectId": "proj003",
+    "buildingId": "zf-test003",
+    "buildingExternalSurfaceArea": 1200,
+    "buildingHeight": 120,
+    "buildingVolume": 25000,
+    "northAngle": 30,
+    "formFactor": 0.6,
+    "buildingName": "测试",
+    "buildingOrientation": "North",
+    "structuralType": "Shear Wall Structure",
+    "floors": [
+        {
+            "floorId": 1,
+            "buildingSpacesId": [
+                "bs-007",
+                "bs-008"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 2,
+            "buildingSpacesId": [
+                "bs-008",
+                "bs-010",
+                "II"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 3,
+            "buildingSpacesId": [
+                "bs-013",
+                "bs-011",
+                "bs-009"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 4,
+            "buildingSpacesId": [
+                "bs-010",
+                "bs-009"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 5,
+            "buildingSpacesId": [
+                "bs-010",
+                "bs-009",
+                "bs-008"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 6,
+            "buildingSpacesId": [
+                "bs-010",
+                "bs-012",
+                "bs-013"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 7,
+            "buildingSpacesId": [
+                "bs-011",
+                "bs-009",
+                "bs-008"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 8,
+            "buildingSpacesId": [
+                "bs-007",
+                "bs-008",
+                "bs-011"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 9,
+            "buildingSpacesId": [
+                "bs-012",
+                "bs-009",
+                "bs-008"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 10,
+            "buildingSpacesId": [
+                "bs-011",
+                "bs-008"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 11,
+            "buildingSpacesId": [
+                "bs-010",
+                "bs-007"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 12,
+            "buildingSpacesId": [
+                "bs-013",
+                "bs-010"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 13,
+            "buildingSpacesId": [
+                "bs-010",
+                "bs-012"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 14,
+            "buildingSpacesId": [
+                "bs-010",
+                "bs-007"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 15,
+            "buildingSpacesId": [
+                "bs-011",
+                "bs-019",
+                "bs-013"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 16,
+            "buildingSpacesId": [
+                "bs-010",
+                "bs-008"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 17,
+            "buildingSpacesId": [
+                "bs-010",
+                "bs-011"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 18,
+            "buildingSpacesId": [
+                "bs-007",
+                "bs-009",
+                "bs-012"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 19,
+            "buildingSpacesId": [
+                "bs-011",
+                "bs-009"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 20,
+            "buildingSpacesId": [
+                "bs-009",
+                "bs-011"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 21,
+            "buildingSpacesId": [
+                "bs-007",
+                "bs-011"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 22,
+            "buildingSpacesId": [
+                "bs-011",
+                "bs-009"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 23,
+            "buildingSpacesId": [
+                "bs-011",
+                "bs-009"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 24,
+            "buildingSpacesId": [
+                "bs-010",
+                "bs-012"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 25,
+            "buildingSpacesId": [
+                "bs-008",
+                "bs-010"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 26,
+            "buildingSpacesId": [
+                "bs-009",
+                "bs-019"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 27,
+            "buildingSpacesId": [
+                "bs-009",
+                "bs-011"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 28,
+            "buildingSpacesId": [
+                "bs-011",
+                "bs-009"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 29,
+            "buildingSpacesId": [
+                "bs-008",
+                "bs-010"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 30,
+            "buildingSpacesId": [
+                "bs-012",
+                "bs-010"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 31,
+            "buildingSpacesId": [
+                "bs-010",
+                "bs-008"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 32,
+            "buildingSpacesId": [
+                "bs-007",
+                "bs-009",
+                "bs-010",
+                "bs-011"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 33,
+            "buildingSpacesId": [
+                "bs-008",
+                "bs-010",
+                "bs-011"
+            ],
+            "height": 3
+        },
+        {
+            "floorId": 34,
+            "buildingSpacesId": [
+                "bs-011",
+                "bs-009",
+                "bs-008",
+                "bs-013"
+            ],
+            "height": 3
+        }
+    ]
+}

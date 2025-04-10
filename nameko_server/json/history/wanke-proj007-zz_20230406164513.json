@@ -1,0 +1,27 @@
+{
+    "designLimits": {
+        "coolingLoad": {
+            "upperLimit": 2,
+            "lowerLimit": 2
+        },
+        "heatingLoad": {
+            "upperLimit": 2,
+            "lowerLimit": 2
+        }
+    },
+    "numberOfFloors": {
+        "aboveGround": 1,
+        "belowGround": 1
+    },
+    "organizationCode": "wanke",
+    "projectId": "proj007",
+    "buildingId": "zz",
+    "buildingExternalSurfaceArea": 2,
+    "buildingHeight": 2,
+    "buildingVolume": 2,
+    "northAngle": 2,
+    "formFactor": 2,
+    "buildingName": "zz",
+    "buildingOrientation": "zz",
+    "structuralType": "2"
+}

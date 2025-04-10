@@ -1,0 +1,64 @@
+{
+    "organizationId": "org123",
+    "projectId": "proj456",
+    "houseTemplate": {
+        "templateName": "My House Template",
+        "floorHeight": 3,
+        "rooms": [
+            {
+                "room_name": "Living Room",
+                "room_type": 1,
+                "room_length": 10,
+                "room_width": 8,
+                "room_height": 3,
+                "walls": [
+                    {
+                        "orientation": 0,
+                        "wall_width": 10,
+                        "wall_height": 3,
+                        "window": []
+                    },
+                    {
+                        "orientation": 1,
+                        "wall_width": 8,
+                        "wall_height": 3,
+                        "window": [
+                            {
+                                "orientation": 0,
+                                "window_width": 4,
+                                "window_height": 2.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "room_name": "Bedroom",
+                "room_type": 2,
+                "room_length": 12,
+                "room_width": 10,
+                "room_height": 3.5,
+                "walls": [
+                    {
+                        "orientation": 0,
+                        "wall_width": 12,
+                        "wall_height": 3.5,
+                        "window": [
+                            {
+                                "orientation": 2,
+                                "window_width": 6,
+                                "window_height": 2
+                            }
+                        ]
+                    },
+                    {
+                        "orientation": 3,
+                        "wall_width": 10,
+                        "wall_height": 3.5,
+                        "window": []
+                    }
+                ]
+            }
+        ]
+    }
+}

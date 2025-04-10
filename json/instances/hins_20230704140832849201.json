@@ -1,0 +1,62 @@
+{
+    "h_name": "cs",
+    "h_total_area": 15.9997,
+    "h_total_room_num": 1,
+    "h_total_wall_num": 2,
+    "h_total_wall_area": 18,
+    "h_total_window_area": 0,
+    "h_total_window_num": 0,
+    "h_height": 3,
+    "h_total_avg_k": 0.0644,
+    "h_total_avg_ww_ratio": 0.0,
+    "h_total_cost": 0.0,
+    "rooms": [
+        {
+            "room_type": 0,
+            "room_area": 15.9997,
+            "room_length": 3.3811,
+            "room_width": 4.7321,
+            "room_height": 3.0,
+            "total_wall_area": 18,
+            "total_window_area": 0,
+            "ww_ratio": 0.0,
+            "walls": [
+                {
+                    "orientation": 0,
+                    "area": 9,
+                    "wall_width": 3,
+                    "wall_height": 3,
+                    "insulation_material": {
+                        "name": "20mm厚度不燃型复合膨胀聚苯乙烯保温板 ( A 级)",
+                        "thickness": 20,
+                        "price": 63.85,
+                        "K": 0.065,
+                        "level": 1
+                    },
+                    "wall_avg_k": 0.065,
+                    "window": null
+                },
+                {
+                    "orientation": 2,
+                    "area": 9,
+                    "wall_width": 3,
+                    "wall_height": 3,
+                    "insulation_material": {
+                        "name": "25mm厚度不燃型复合膨胀聚苯乙烯保温板 ( A 级)",
+                        "thickness": 25,
+                        "price": 66.44,
+                        "K": 0.0638,
+                        "level": 1
+                    },
+                    "wall_avg_k": 0.0638,
+                    "window": null
+                }
+            ],
+            "total_cost_im": 0.0,
+            "total_cost_g": 0,
+            "total_cost_wf": 0,
+            "total_cost": 0.0,
+            "total_avg_k": 0.0644
+        }
+    ]
+}

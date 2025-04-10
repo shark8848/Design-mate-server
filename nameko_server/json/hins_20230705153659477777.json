@@ -1,0 +1,91 @@
+{
+    "h_name": "cs",
+    "h_total_area": 15.9999,
+    "h_total_room_num": 1,
+    "h_total_wall_num": 2,
+    "h_total_wall_area": 18,
+    "h_total_window_area": 1,
+    "h_total_window_num": 1,
+    "h_height": 3,
+    "h_total_avg_k": 0.1851,
+    "h_total_avg_ww_ratio": 0.0556,
+    "h_total_cost": 681.3,
+    "rooms": [
+        {
+            "room_type": 0,
+            "room_area": 15.9999,
+            "room_length": 3.9881,
+            "room_width": 4.0119,
+            "room_height": 3.0,
+            "total_wall_area": 18,
+            "total_window_area": 1,
+            "ww_ratio": 0.0556,
+            "walls": [
+                {
+                    "orientation": 0,
+                    "area": 9,
+                    "wall_width": 3,
+                    "wall_height": 3,
+                    "insulation_material": {
+                        "name": "20mm厚度不燃型复合膨胀聚苯乙烯保温板 ( A 级)",
+                        "thickness": 20,
+                        "price": 63.85,
+                        "K": 0.065,
+                        "level": 1
+                    },
+                    "wall_avg_k": 0.3064,
+                    "window": {
+                        "area": 1,
+                        "window_wall_ratio": 0.1111,
+                        "window_width": 1,
+                        "window_height": 1,
+                        "orientation": 0,
+                        "glass_material": {
+                            "descriptions": "6中透光Low-E+12A+6透明",
+                            "S_D": 2,
+                            "thickness": 6,
+                            "coating": 1,
+                            "hollow_material": 12,
+                            "price": 123.82,
+                            "K": 1.8628
+                        },
+                        "wfa_ratio": 0.2801,
+                        "glass_area": 1,
+                        "wf_material": {
+                            "type": "WF-001",
+                            "material": "L01",
+                            "area": 22.0,
+                            "width": 4.0,
+                            "height": 3.0,
+                            "frame_area": 2.4,
+                            "price": 120,
+                            "window_frame_area_ratio": 0.2,
+                            "K": 3.2
+                        },
+                        "wf_area": 0.389
+                    }
+                },
+                {
+                    "orientation": 2,
+                    "area": 9,
+                    "wall_width": 3,
+                    "wall_height": 3,
+                    "insulation_material": {
+                        "name": "25mm厚度不燃型复合膨胀聚苯乙烯保温板 ( A 级)",
+                        "thickness": 25,
+                        "price": 66.44,
+                        "K": 0.0638,
+                        "level": 1
+                    },
+                    "wall_avg_k": 0.0638,
+                    "window": null
+                }
+            ],
+            "total_cost_im": 510.8,
+            "total_cost_g": 123.82,
+            "total_cost_wf": 46.68,
+            "total_cost": 681.3,
+            "total_avg_k": 0.1851
+        }
+    ]
+}

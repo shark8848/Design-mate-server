@@ -1,0 +1,87 @@
+import psutil
+import json
+import time
+import asyncio
+import aio_pika
+import sys
+sys.path.append("..")
+from apocolib.RabbitMQProducer import RabbitMQProducer
+
+class MonitorDataCollector:
+    def __init__(self, rabbitmq_host='localhost', rabbitmq_port=5672, rabbitmq_queue='system'):
+        self.rmqp = RabbitMQProducer()
+        self.rmqp.connect(queue_name=rabbitmq_queue)
+
+    async def publish_message(self, message):
+        await self.rmqp.publish(message)
+
+    async def collect_and_publish_data(self, interval, data_type, data_func):
+        while True:
+            data = data_func()
+            data['type'] = data_type
+            data['timestamp'] = time.strftime("%Y-%m-%d %H:%M:%S")
+            message = json.dumps(data)
+            await self.publish_message(message)
+            await asyncio.sleep(interval)
+
+    async def collect_cpu_usage(self):
+        return {
+            'usage': psutil.cpu_percent(interval=None),
+            'cores': psutil.cpu_percent(percpu=True)
+        }
+
+    async def collect_swap_usage(self):
+        swap_usage = psutil.swap_memory()
+        return {
+            'total': swap_usage.total,
+            'used': swap_usage.used,
+            'free': swap_usage.free,
+            'percent': swap_usage.percent
+        }
+
+    async def collect_memory_usage(self):
+        memory_usage = psutil.virtual_memory()
+        return {
+            'total': memory_usage.total,
+            'available': memory_usage.available,
+            'used': memory_usage.used,
+            'percent': memory_usage.percent
+        }
+
+    async def collect_disk_usage(self):
+        disk_usage = psutil.disk_usage('/')
+        return {
+            'total': disk_usage.total,
+            'used': disk_usage.used,
+            'free': disk_usage.free,
+            'percent': disk_usage.percent
+        }
+
+    async def collect_process_info(self):
+        process_list = []
+        for process in psutil.process_iter(['pid', 'name', 'cpu_percent', 'memory_info']):
+            process_info = {
+                'pid': process.pid,
+                'name': process.name(),
+                'cpu_usage': process.cpu_percent(),
+                'memory_usage': process.memory_info().rss
+            }
+            process_list.append(process_info)
+
+        return {'processes': process_list}
+
+    async def run(self):
+        tasks = [
+            self.collect_and_publish_data(5, 'cpu', self.collect_cpu_usage),
+            self.collect_and_publish_data(10, 'swap', self.collect_swap_usage),
+            self.collect_and_publish_data(10, 'memory', self.collect_memory_usage),
+            self.collect_and_publish_data(10, 'disk', self.collect_disk_usage),
+            self.collect_and_publish_data(20, 'process', self.collect_process_info)
+        ]
+        await asyncio.gather(*tasks)
+
+if __name__ == '__main__':
+    monitor = MonitorDataCollector()
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(monitor.run())
+

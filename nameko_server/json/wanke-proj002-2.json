@@ -1,0 +1,128 @@
+{
+    "designLimits": {
+        "coolingLoad": {
+            "upperLimit": 2,
+            "lowerLimit": 2
+        },
+        "heatingLoad": {
+            "upperLimit": 2,
+            "lowerLimit": 2
+        }
+    },
+    "numberOfFloors": {
+        "aboveGround": 2,
+        "belowGround": 2
+    },
+    "organizationCode": "wanke",
+    "projectId": "proj002",
+    "buildingId": "2",
+    "buildingExternalSurfaceArea": 2,
+    "buildingHeight": 2,
+    "buildingVolume": 2,
+    "northAngle": 2,
+    "formFactor": 2,
+    "buildingName": "2",
+    "buildingOrientation": "2",
+    "structuralType": "2",
+    "floors": [
+        {
+            "floorId": 1,
+            "buildingSpacesId": [
+                "SPACE001",
+                "SPACE002",
+                "SPACE003",
+                "SPACE004",
+                "SPACE005",
+                "SPACE006"
+            ]
+        },
+        {
+            "floorId": 2,
+            "buildingSpacesId": [
+                "SPACE001",
+                "SPACE002",
+                "SPACE003",
+                "SPACE004",
+                "SPACE005",
+                "SPACE006"
+            ]
+        },
+        {
+            "floorId": 3,
+            "buildingSpacesId": [
+                "SPACE001",
+                "SPACE002",
+                "SPACE003",
+                "SPACE004",
+                "SPACE005",
+                "SPACE006"
+            ]
+        },
+        {
+            "floorId": 4,
+            "buildingSpacesId": [
+                "SPACE001",
+                "SPACE002",
+                "SPACE003",
+                "SPACE004",
+                "SPACE005",
+                "SPACE006"
+            ]
+        },
+        {
+            "floorId": 5,
+            "buildingSpacesId": [
+                "SPACE001",
+                "SPACE002",
+                "SPACE003",
+                "SPACE004",
+                "SPACE005",
+                "SPACE006"
+            ]
+        },
+        {
+            "floorId": 6,
+            "buildingSpacesId": [
+                "SPACE001",
+                "SPACE002",
+                "SPACE003",
+                "SPACE004",
+                "SPACE005",
+                "SPACE006"
+            ]
+        },
+        {
+            "floorId": 7,
+            "buildingSpacesId": [
+                "SPACE001",
+                "SPACE002",
+                "SPACE003",
+                "SPACE004",
+                "SPACE005",
+                "SPACE006"
+            ]
+        },
+        {
+            "floorId": 8,
+            "buildingSpacesId": [
+                "SPACE001",
+                "SPACE002",
+                "SPACE003",
+                "SPACE004",
+                "SPACE005",
+                "SPACE006"
+            ]
+        },
+        {
+            "floorId": 9,
+            "buildingSpacesId": [
+                "SPACE001",
+                "SPACE002",
+                "SPACE003",
+                "SPACE004",
+                "SPACE005",
+                "SPACE006"
+            ]
+        }
+    ]
+}

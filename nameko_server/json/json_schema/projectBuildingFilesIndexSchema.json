@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "organizationCode": {"type": "string", "minLength": 1},
+        "projects": {
+                "type": "object",
+                "properties": {
+                    "projectId": {"type": "string", "minLength": 1},
+                    "buildings": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "buildingId": {"type": "string", "minLength": 1 },
+                                "buildingInfoFileName": {"type": "string", "minLength": 1}
+                            },
+                            "required": ["buildingId", "buildingInfoFileName"]
+                        },
+                        "uniqueItems": true
+                    }
+                },
+                "required": ["projectId", "buildings"]
+        }
+    },
+    "required": ["organizationCode", "projects"]
+}

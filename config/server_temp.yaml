@@ -1,0 +1,33 @@
+dir:
+  job_data_root_dir: ./json
+  service_data_root_dir: ./json
+mail:
+  mail_jwt_expiration_delta: 1800
+  mail_jwt_secret_key: GlzJgy93SXbXV4JARkDUROKkYGqnFGCzpz7NkKJsj/ChnawwI4+0SHj719rV43LuFVKYQnY8BdPLseki0UeowiKmUZywvmhuN8XH4C8UWcY=
+  sender_mail: 113162985@qq.com
+  sender_password: JM8EwKiN0HMaXZFrD25daAwyxxHRQWUdKYJKxybKrjZAZQcrIQFpN2eXipzHz4Sg
+  smtp_port: '25'
+  smtp_server: smtp.qq.com
+  smtp_server_token: qq_smtp_server_token,please update it
+  smtp_ssl_port: '465'
+mq:
+  config_mq:
+    AMQP_URI: amqp://QCspMRzY7VHBcPqDRN/gSuGwogOLG+eL9x6u9qpEGm9VBVja+erW386GFEfjrjwl:QCspMRzY7VHBcPqDRN/gSuGwogOLG+eL9x6u9qpEGm9VBVja+erW386GFEfjrjwl@10.8.0.181
+redis:
+  redis_host: 10.8.0.181
+  redis_password: lnpFDrZGcvS7LJnTfA+oxpy3svnDJKkKrr2FgVH55W43FwH09jVS5Nj36Atnczhq
+  redis_port: 6379
+server:
+  flask_host: 10.8.0.181
+  flask_jwt_expiration_delta: 86400
+  flask_jwt_secret_key: j91OCAQh1I6C080NYNL2D34oIk1OkgDJ7yybjImN7l3OMbkmFy1DFpjmNDgjZcILswwX+Z5OUGUUL6478FiCgpRig2swKYgWrTu3kyNuPMI=
+  flask_pid_file: pid.txt
+  flask_port:
+  - 5000
+  - 5001
+  - 5002
+  - 5003
+sqlite:
+  db_url: sqlite:////home/apoco/ai_micro_services/apoco_intelligent_inalytics/database/apoco_ai_masterdb.db
+token:
+  algorithms: HS256

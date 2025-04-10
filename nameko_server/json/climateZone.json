@@ -1,0 +1,68 @@
+{
+    "climateZone":[
+            {
+                "climateZoneCode": "Ⅰ",
+                "secondaryCode": ["A","B","C","D"],
+                "climateZoneName": "严寒地区",
+                "climateKeyIndicators": "1月平均气温≤-10℃ 7月平均气温≤25℃ 7月平均相对湿度≥50%",
+                "auxiliaryIndicators": "年降水量200-800mm 年日平均气温≤5℃的日数)145d",
+                "scope": "黑龙江、吉林全境;辽宁大部;内蒙中、北部及陕西、山西、河北、北京北部的部分 地区",
+                "buildingBasicRequirements": "1、建筑物必须满足冬季保温、防寒、防冻等要求 2、ⅠA、ⅠB区应防止冻土、积雪对建筑物的危害 3、ⅠB、ⅠC、ⅠD区西部，建筑物应防冰雹、防风沙" 
+            },
+            {
+                "climateZoneCode": "Ⅱ",
+                "secondaryCode": ["A","B"],
+                "climateZoneName": "寒冷地区",
+                "climateKeyIndicators": "1月平均气温-10~0℃ 7月平均气温18~28℃",
+                "auxiliaryIndicators": "年日平均气温≥25℃的日数<80d 年日平均气温≤5℃的日数145-90d",
+                "scope": "天津、山东、宁夏全境;北京、河北、山西、 陕西大部;辽宁南部;甘肃中、东部以及 河南、安徽、江苏北部的部分地区",
+                "buildingBasicRequirements": "1、建筑物应满足冬季保温、防寒、防冻等要求，夏季部分地区应兼顾防热 2、ⅡA区建筑物应防热、防潮、防暴风雨、沿海地带应防盐雾侵蚀" 
+            },
+            {
+                "climateZoneCode": "Ⅲ ",
+                "secondaryCode": ["A","B","C"],
+                "climateZoneName": "夏热冬冷地区",
+                "climateKeyIndicators": "1月平均气温0~10℃ 7月平均气温25~30℃",
+                "auxiliaryIndicators": "年日平均气温≥25℃的日数40-110d 年日平均气温≤5℃的日数90-0d",
+                "scope": "上海、浙江、江西、湖北、湖南全境;江苏、 安徽、四川大部;陕西、河南南部;贵州东 部;福建、广东、广西北部和甘肃南部的 部分地区",
+                "buildingBasicRequirements": "1、建筑物必须满足夏季防热、遮阳、通风降温要求，冬季应兼顾防寒 2、建筑物应防雨、防潮、防洪、防雷电 3、ⅢA区应防台风、暴雨袭击及盐雾侵蚀" 
+            },
+            {
+                "climateZoneCode": "Ⅳ ",
+                "secondaryCode": ["A","B"],
+                "climateZoneName": "夏热冬暖地区",
+                "climateKeyIndicators": "1月平均气温>10℃ 7月平均气温25~29℃",
+                "auxiliaryIndicators": "年日平均气温≥25℃的日数 100-200d",
+                "scope": "海南、台湾全境;福建南部;广东、广西大 部以及云南西南部和元江河谷地区",
+                "buildingBasicRequirements": "1、建筑物必须满足夏季防热、遮阳、通风、防雨要求 2、建筑物应防暴雨、防潮、防洪、防雷电 3、ⅣA应防台风暴雨袭击及盐雾侵蚀" 
+            },
+            {
+                "climateZoneCode": "Ⅴ ",
+                "secondaryCode": ["A","B"],
+                "climateZoneName": "温和地区",
+                "climateKeyIndicators": "1月平均气温0~13℃ 7月平均气温18~25℃",
+                "auxiliaryIndicators": "年日平均气温≤5℃的日数 0-90d",
+                "scope": "云南大部、贵州、四川西南部、西藏南部 一小部分地区",
+                "buildingBasicRequirements": "1、建筑物应满足防雨和通风要求 2、ⅤA区建筑物应注意防寒，ⅤB区建筑物应特别注意防雷电" 
+            },
+            {
+                "climateZoneCode": "Ⅵ  ",
+                "secondaryCode": ["A","B","C"],
+                "climateZoneName": "严寒地区",
+                "climateKeyIndicators": "1月平均气温0 ~ -22℃ 7月平均气温<18℃",
+                "auxiliaryIndicators": "年日平均气温≤5℃的日数90-285d",
+                "scope": "青海全境;西藏大部;四川西部、甘肃西 南部;新疆南部部分地区",
+                "buildingBasicRequirements": "建筑热工设计应符合严寒和寒冷地区相关要求" 
+            },
+            {
+                "climateZoneCode": "Ⅶ  ",
+                "secondaryCode": ["A","B","C","D"],
+                "climateZoneName": "寒冷地区",
+                "climateKeyIndicators": "1月平均气温-5~ -20℃ 7月平均气温≥18℃ 7月平均相对湿度<50%",
+                "auxiliaryIndicators": "年降水量10-600mm 年日平均气温≥25℃的日数< 120d 年日平均气温≤5℃的日数110-180d",
+                "scope": "新疆大部,甘肃北部,内蒙西部",
+                "buildingBasicRequirements": "建筑热工设计应符合严寒和寒冷地区相关要求" 
+            }
+    ]
+
+}

@@ -1,0 +1,45 @@
+{
+    "organizationCode": "ABC",
+    "projects": [
+        {
+            "projectId": "123",
+            "buildings": [
+                {
+                    "buildingId": "001",
+                    "buildingName": "Building A",
+                    "buildingInfoFileName": "./json/building_info_001.json"
+                },
+                {
+                    "buildingId": "002",
+                    "buildingName": "Building B",
+                    "buildingInfoFileName": "./json/building_info_002.json"
+                },
+                {
+                    "buildingId": "003",
+                    "buildingName": "Building C",
+                    "buildingInfoFileName": "./json/building_info_003.json"
+                }
+            ]
+        },
+        {
+            "projectId": "456",
+            "buildings": [
+                {
+                    "buildingId": "001",
+                    "buildingName": "Building X",
+                    "buildingInfoFileName": "./json/building_info_001.json"
+                },
+                {
+                    "buildingId": "002",
+                    "buildingName": "Building Y",
+                    "buildingInfoFileName": "./json/building_info_002.json"
+                },
+                {
+                    "buildingId": "003",
+                    "buildingName": "Building Z",
+                    "buildingInfoFileName": "./json/building_info_003.json"
+                }
+            ]
+        }
+    ]
+}

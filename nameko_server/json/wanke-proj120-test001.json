@@ -1,0 +1,27 @@
+{
+    "designLimits": {
+        "coolingLoad": {
+            "upperLimit": 100,
+            "lowerLimit": 10
+        },
+        "heatingLoad": {
+            "upperLimit": 200,
+            "lowerLimit": 20
+        }
+    },
+    "numberOfFloors": {
+        "aboveGround": 8,
+        "belowGround": 0
+    },
+    "organizationCode": "wanke",
+    "projectId": "proj120",
+    "buildingId": "test001",
+    "buildingExternalSurfaceArea": 100,
+    "buildingHeight": 30,
+    "buildingVolume": 300,
+    "northAngle": 2,
+    "formFactor": 0.1,
+    "buildingName": "一单元",
+    "buildingOrientation": "North",
+    "structuralType": "Tubular Structure"
+}

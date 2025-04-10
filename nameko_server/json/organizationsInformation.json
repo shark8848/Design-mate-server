@@ -1,0 +1,196 @@
+{
+    "organizations": [
+        {
+            "organizationCode": "org001",
+            "address": "Ut sed mollit amet non",
+            "contact": "est occaecat dolore fugiat",
+            "phoneNo": "13601171510",
+            "email": "sunhy@sina.com",
+            "organizationName": "labore aliqua"
+        },
+        {
+            "organizationCode": "wanke",
+            "address": "chengdu tianfu",
+            "contact": "sunhy",
+            "phoneNo": "13601171510",
+            "email": "sunhy@wanke.com",
+            "organizationName": "wanke-1"
+        },
+        {
+            "organizationCode": "RCDC",
+            "address": "chengdu tianfu",
+            "contact": "sunhy",
+            "phoneNo": "13601171510",
+            "email": "sunhy@wanke.com",
+            "organizationName": "RONGCHUANGDC"
+        },
+        {
+            "organizationCode": "wanke12",
+            "address": "chengdu tianfu",
+            "contact": "sunhy2",
+            "phoneNo": "13601171511",
+            "email": "sunhy2@wanke.com",
+            "organizationName": "wanke12"
+        },
+        {
+            "address": "z",
+            "contact": "z",
+            "email": "2@qq.com",
+            "geographicalLocation": [
+                {
+                    "Latitude": "",
+                    "Longitude": ""
+                }
+            ],
+            "organizationCode": "z",
+            "organizationName": "zz",
+            "phoneNo": "13456789012",
+            "solarAbsorptionCoefficient": [
+                {
+                    "externalWalls": "",
+                    "roof": ""
+                }
+            ]
+        },
+        {
+            "address": "s",
+            "contact": "s222",
+            "email": "123@qq.com",
+            "geographicalLocation": [
+                {
+                    "Latitude": "",
+                    "Longitude": ""
+                }
+            ],
+            "organizationCode": "s3",
+            "organizationName": "s",
+            "phoneNo": "13245678912",
+            "solarAbsorptionCoefficient": [
+                {
+                    "externalWalls": "",
+                    "roof": ""
+                }
+            ]
+        },
+        {
+            "organizationCode": "wanke1",
+            "address": "chengdu tianfu",
+            "contact": "sunhy2",
+            "phoneNo": "13601171510",
+            "email": "sunhy@wanke.com",
+            "organizationName": "wanke2"
+        },
+        {
+            "organizationCode": "wanke2",
+            "address": "chengdu tianfu",
+            "contact": "sunhy",
+            "phoneNo": "13601171510",
+            "email": "sunhy@wanke.com",
+            "organizationName": "wanke"
+        },
+        {
+            "address": "chengdu tianfu",
+            "contact": "sunhy",
+            "email": "sunhy@wanke.com",
+            "organizationCode": "wanke3",
+            "organizationName": "wanke",
+            "phoneNo": "13601171510"
+        },
+        {
+            "address": "chengdu tianfu",
+            "contact": "sunhy",
+            "email": "sunhy@wanke.com",
+            "organizationCode": "wanke4",
+            "organizationName": "wanke",
+            "phoneNo": "13601171510"
+        },
+        {
+            "organizationCode": "pp1",
+            "address": "chengdu tianfu",
+            "contact": "sunhy",
+            "phoneNo": "13601171510",
+            "email": "sunhy@wanke.com",
+            "organizationName": "wanke"
+        },
+        {
+            "organizationCode": "pp2",
+            "address": "chengdu tianfu",
+            "contact": "sunhy",
+            "phoneNo": "13601171510",
+            "email": "sunhy@wanke.com",
+            "organizationName": "wanke"
+        },
+        {
+            "organizationCode": "pp3",
+            "address": "chengdu tianfu",
+            "contact": "sunhy",
+            "phoneNo": "13601171510",
+            "email": "sunhy@wanke.com",
+            "organizationName": "wanke"
+        },
+        {
+            "organizationCode": "pp4",
+            "address": "chengdu tianfu",
+            "contact": "sunhy",
+            "phoneNo": "13601171510",
+            "email": "sunhy@wanke.com",
+            "organizationName": "wanke"
+        },
+        {
+            "organizationCode": "pp5",
+            "address": "chengdu tianfu",
+            "contact": "sunhy",
+            "phoneNo": "13601171510",
+            "email": "sunhy@wanke.com",
+            "organizationName": "wanke"
+        },
+        {
+            "organizationCode": "pp6",
+            "address": "chengdu tianfu",
+            "contact": "sunhy",
+            "phoneNo": "13601171510",
+            "email": "sunhy@wanke.com",
+            "organizationName": "wanke"
+        },
+        {
+            "organizationCode": "pp7",
+            "address": "chengdu tianfu",
+            "contact": "sunhy",
+            "phoneNo": "13601171510",
+            "email": "sunhy@wanke.com",
+            "organizationName": "wanke"
+        },
+        {
+            "organizationCode": "pp8",
+            "address": "chengdu tianfu",
+            "contact": "sunhy",
+            "phoneNo": "13601171510",
+            "email": "sunhy@wanke.com",
+            "organizationName": "wanke"
+        },
+        {
+            "organizationCode": "pp9",
+            "address": "chengdu tianfu",
+            "contact": "sunhy",
+            "phoneNo": "13601171510",
+            "email": "sunhy@wanke.com",
+            "organizationName": "wanke"
+        },
+        {
+            "organizationCode": "languang",
+            "address": "chengdu tianfu",
+            "contact": "sunhy",
+            "phoneNo": "13601171510",
+            "email": "sunhy@wanke.com",
+            "organizationName": "wanke"
+        },
+        {
+            "address": "chengdu555",
+            "contact": "gaoqi",
+            "email": "2486@qq.com",
+            "organizationCode": "gao",
+            "organizationName": "tqzy",
+            "phoneNo": "18383084786"
+        }
+    ]
+}

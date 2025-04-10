@@ -1,0 +1,24 @@
+{
+    "organizationCode": "wanke",
+    "projects": {
+        "projectId": "zzzzz",
+        "buildings": [
+            {
+                "buildingId": "B003",
+                "buildingInfoFileName": "./json/wanke-zzzzz-B003.json"
+            },
+            {
+                "buildingId": "1",
+                "buildingInfoFileName": "./json/wanke-zzzzz-1.json"
+            },
+            {
+                "buildingId": "111",
+                "buildingInfoFileName": "./json/wanke-zzzzz-111.json"
+            },
+            {
+                "buildingId": "2",
+                "buildingInfoFileName": "./json/wanke-zzzzz-2.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "Structure Type": [
+    {
+      "TypeName": "Frame Structure",
+      "ConstructionMaterial": ["Steel", "Reinforced Concrete"],
+      "Description": "框架结构"
+    },
+    {
+      "TypeName": "Shear Wall Structure",
+      "ConstructionMaterial": ["Reinforced Concrete"],
+      "Description": "剪力墙结构"
+    },
+    {
+      "TypeName": "Frame-shear Wall Structure",
+      "ConstructionMaterial": ["Reinforced Concrete"],
+      "Description": "框架剪力墙结构"
+    },
+    {
+      "TypeName": "Shell Structure",
+      "ConstructionMaterial": ["Steel", "Reinforced Concrete"],
+      "Description": "壳体结构"
+    },
+    {
+      "TypeName": "Tubular Structure",
+      "ConstructionMaterial": ["Reinforced Concrete"],
+      "Description": "筒体结构"
+    }
+  ]
+}

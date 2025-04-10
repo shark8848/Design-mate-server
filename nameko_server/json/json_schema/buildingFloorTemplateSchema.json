@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "organizationCode": { "type": "string", "minLength": 1, "maxLength": 50 },
+        "projectId": { "type": "string", "minLength": 1, "maxLength": 50 },
+        "buildingId": { "type": "string", "minLength": 1, "maxLength": 50 },
+        "floors": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "floorId": { "type": "integer", "minimum": 1, "maximum": 100 },
+                    "buildingSpacesId": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "minLength": 1, "maxLength": 50
+                        },
+                        "uniqueItems": true
+                    }
+                },
+                "required": [ "floorId", "buildingSpacesId" ]
+            },
+            "minItems": 1,
+            "maxItems": 500
+        }
+    },
+    "required": [ "organizationCode", "projectId", "buildingId", "floors" ]
+}

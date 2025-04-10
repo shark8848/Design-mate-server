@@ -1,0 +1,27 @@
+{
+    "designLimits": {
+        "coolingLoad": {
+            "lowerLimit": 50,
+            "upperLimit": 100
+        },
+        "heatingLoad": {
+            "lowerLimit": 20,
+            "upperLimit": 200
+        }
+    },
+    "numberOfFloors": {
+        "aboveGround": 12,
+        "belowGround": 1
+    },
+    "organizationCode": "wanke",
+    "projectId": "proj009",
+    "buildingId": "test3",
+    "buildingExternalSurfaceArea": 10000,
+    "buildingHeight": 40,
+    "buildingVolume": 1000,
+    "northAngle": 5,
+    "formFactor": 0.3,
+    "buildingName": "三单元",
+    "buildingOrientation": "Northeast",
+    "structuralType": "Shear Wall Structure"
+}

@@ -1,0 +1,76 @@
+{
+    "h_name [房屋名称]": "测试008-2",
+    "h_total_area [房屋总面积]": 16.0003,
+    "h_total_room_num [房屋房间数量]": 1,
+    "h_total_wall_num [房屋外墙数量]": 1,
+    "h_total_wall_area [房屋外墙面积]": 9,
+    "h_total_window_area [房屋窗户面积]": 1,
+    "h_total_window_num [房屋窗户数量]": 1,
+    "h_height [房屋高度]": 3,
+    "h_total_avg_k [房屋平均导热系数]": 0.3058,
+    "h_total_avg_ww_ratio [房屋平均墙/窗比值]": 0.1111,
+    "h_total_cost [房屋总材料成本]": 691.26,
+    "rooms": [
+        {
+            "room_type(房间类型)": 0,
+            "room_area(房间面积)": 16.0003,
+            "room_length(房间长度)": 4.1132,
+            "room_width(房间宽度)": 3.89,
+            "room_height(房间高度)": 3.0,
+            "total_wall_area(房间外墙面积)": 9,
+            "total_window_area(房间窗户面积)": 1,
+            "ww_ratio(房间外墙/窗户比值)": 0.1111,
+            "walls": [
+                {
+                    "orientation(墙体朝向)": 2,
+                    "area(墙体面积)": 9,
+                    "wall_width(墙体宽度)": 3,
+                    "wall_height(墙体高度)": 3,
+                    "insulation_material(墙体材料)": {
+                        "name": "25mm厚度不燃型复合膨胀聚苯乙烯保温板 ( A 级)",
+                        "thickness": 25,
+                        "price": 66.44,
+                        "K": 0.0638,
+                        "level": 1
+                    },
+                    "wall_avg_k(墙体平均导热系数)": 0.3058,
+                    "window": {
+                        "area(窗户面积)": 1,
+                        "window_wall_ratio(窗/墙比)": 0.1111,
+                        "window_width(窗户宽度)": 1,
+                        "window_height(窗户高度)": 1,
+                        "orientation(窗户朝向)": 2,
+                        "glass_material(窗户玻璃材料)": {
+                            "descriptions": "5中透光Low-E+12A+5透明",
+                            "S_D": 2,
+                            "thickness": 5,
+                            "coating": 1,
+                            "hollow_material": 12,
+                            "price": 113.06,
+                            "K": 1.8696
+                        },
+                        "wfa_ratio(窗框/窗比)": 0.2801,
+                        "glass_area(玻璃面积)": 1,
+                        "wf_material(窗框材料)": {
+                            "type": "WF-003",
+                            "material": "L03",
+                            "area": 26.0,
+                            "width": 3,
+                            "height": 1,
+                            "frame_area": 0.68,
+                            "price": 120,
+                            "window_frame_area_ratio": 0.3,
+                            "K": 3.2
+                        },
+                        "wf_area(窗框面积)": 0.389
+                    }
+                }
+            ],
+            "total_cost_im(房间外墙材料总成本)": 531.52,
+            "total_cost_g(房间外墙玻璃总成本)": 113.06,
+            "total_cost_wf(房间外墙窗框总成本)": 46.68,
+            "total_cost(房间总成本)": 691.26,
+            "total_avg_k(房间平均导热系数)": 0.3058
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "organizationId": "wanke",
+    "projectId": "proj003",
+    "houseTemplate": {
+        "templateName": "测试004",
+        "floorHeight": 3,
+        "rooms": [
+            {
+                "room_name": "tt",
+                "room_type": 2,
+                "room_length": 4,
+                "room_width": 4,
+                "room_height": 3,
+                "walls": [
+                    {
+                        "orientation": 0,
+                        "wall_width": 3,
+                        "wall_height": 3,
+                        "window": [
+                            {
+                                "orientation": 0,
+                                "window_width": 1,
+                                "window_height": 1
+                            }
+                        ]
+                    },
+                    {
+                        "orientation": 2,
+                        "wall_width": 3,
+                        "wall_height": 3,
+                        "window": []
+                    }
+                ]
+            }
+        ]
+    }
+}

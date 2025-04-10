@@ -1,0 +1,4 @@
+secret_key: "1qaz2wsx3edc4rfv"
+slave_service_ip:
+  - "192.168.1.15"
+  - "192.168.1.17"

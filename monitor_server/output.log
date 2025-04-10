@@ -1,0 +1,544 @@
+2023-05-30 18:19:26.791 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:26.792 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:26.793 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:26.793 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:26.898 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:31.799 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:36.799 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:36.801 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:36.802 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:36.804 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:37.007 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:41.809 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:46.807 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:46.809 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:46.810 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:46.812 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:47.180 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:51.817 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:56.812 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:56.814 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:56.815 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:56.820 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:19:57.294 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:01.827 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:06.821 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:06.823 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:06.824 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:06.830 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:07.401 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:11.838 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+queue_name  system
+ publish message - {"usage": 40.7, "cores": [52.0, 26.9, 22.2, 68.0, 34.6, 23.1, 0.0, 100.0], "type": "cpu", "timestamp": "2023-05-30 18:19:26"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:19:26"}
+ publish message - {"total": 67505094656, "available": 57437507584, "used": 9743400960, "percent": 14.9, "type": "memory", "timestamp": "2023-05-30 18:19:26"}
+ publish message - {"total": 210241560576, "used": 134171246592, "free": 65316118528, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:19:26"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52920320}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50622464}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50429952}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50601984}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50446336}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4706304}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15728640}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:19:26"}
+ publish message - {"usage": 21.2, "cores": [29.2, 26.8, 47.3, 21.4, 25.4, 6.6, 6.6, 6.6], "type": "cpu", "timestamp": "2023-05-30 18:19:31"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:19:36"}
+ publish message - {"total": 67505094656, "available": 57402421248, "used": 9778630656, "percent": 15.0, "type": "memory", "timestamp": "2023-05-30 18:19:36"}
+ publish message - {"total": 210241560576, "used": 134171566080, "free": 65315799040, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:19:36"}
+ publish message - {"usage": 19.8, "cores": [19.2, 27.6, 41.8, 39.6, 7.4, 8.7, 10.9, 3.8], "type": "cpu", "timestamp": "2023-05-30 18:19:36"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52920320}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50622464}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50429952}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50601984}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50446336}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4706304}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15728640}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:19:37"}
+ publish message - {"usage": 21.6, "cores": [26.5, 37.4, 25.0, 38.2, 24.1, 10.4, 5.2, 5.8], "type": "cpu", "timestamp": "2023-05-30 18:19:41"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:19:46"}
+ publish message - {"total": 67505094656, "available": 57370460160, "used": 9810731008, "percent": 15.0, "type": "memory", "timestamp": "2023-05-30 18:19:46"}
+ publish message - {"total": 210241560576, "used": 134171926528, "free": 65315438592, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:19:46"}
+ publish message - {"usage": 20.4, "cores": [24.9, 36.3, 32.1, 21.8, 26.7, 5.6, 10.1, 5.7], "type": "cpu", "timestamp": "2023-05-30 18:19:46"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52920320}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50622464}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50429952}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50601984}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50446336}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4706304}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15745024}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:19:47"}
+ publish message - {"usage": 19.1, "cores": [17.7, 32.3, 13.0, 52.0, 9.5, 12.7, 7.4, 7.6], "type": "cpu", "timestamp": "2023-05-30 18:19:51"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:19:56"}
+ publish message - {"total": 67505094656, "available": 57346322432, "used": 9832783872, "percent": 15.0, "type": "memory", "timestamp": "2023-05-30 18:19:56"}
+ publish message - {"total": 210241560576, "used": 134172319744, "free": 65315045376, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:19:56"}
+ publish message - {"usage": 21.3, "cores": [27.8, 32.1, 34.4, 25.5, 6.2, 28.9, 8.7, 5.3], "type": "cpu", "timestamp": "2023-05-30 18:19:56"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52916224}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50618368}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50425856}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50597888}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50442240}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4382720}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15745024}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:19:57"}
+ publish message - {"usage": 21.6, "cores": [29.8, 21.4, 35.3, 33.1, 21.6, 10.0, 10.2, 11.8], "type": "cpu", "timestamp": "2023-05-30 18:20:01"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:20:06"}
+ publish message - {"total": 67505094656, "available": 57283989504, "used": 9895247872, "percent": 15.1, "type": "memory", "timestamp": "2023-05-30 18:20:06"}
+ publish message - {"total": 210241560576, "used": 134172655616, "free": 65314709504, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:20:06"}
+ publish message - {"usage": 21.7, "cores": [15.3, 35.8, 47.1, 21.6, 17.8, 11.0, 12.6, 12.6], "type": "cpu", "timestamp": "2023-05-30 18:20:06"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52916224}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50618368}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50425856}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50597888}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50442240}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4276224}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15798272}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:20:07"}
+ publish message - {"usage": 22.4, "cores": [23.4, 16.5, 38.1, 42.1, 18.2, 17.0, 12.2, 11.6], "type": "cpu", "timestamp": "2023-05-30 18:20:11"}
+2023-05-30 18:20:16.829 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:16.831 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:16.835 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:16.841 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:17.505 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:21.845 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:26.837 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:26.840 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:26.841 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:26.848 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:27.682 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:31.857 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:36.846 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:36.848 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:36.849 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:36.859 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:37.794 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:41.865 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:46.852 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:46.853 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:46.853 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:46.868 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:47.895 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:51.874 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:56.856 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:56.857 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:56.858 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:56.877 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:20:58.002 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:01.884 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:20:16"}
+ publish message - {"total": 67505094656, "available": 57250119680, "used": 9927270400, "percent": 15.2, "type": "memory", "timestamp": "2023-05-30 18:20:16"}
+ publish message - {"total": 210241560576, "used": 134173016064, "free": 65314349056, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:20:16"}
+ publish message - {"usage": 19.5, "cores": [17.5, 15.1, 25.2, 29.5, 25.6, 7.2, 21.1, 15.1], "type": "cpu", "timestamp": "2023-05-30 18:20:16"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52916224}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50618368}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50425856}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50597888}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50442240}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4247552}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15798272}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:20:17"}
+ publish message - {"usage": 19.3, "cores": [15.3, 27.5, 34.7, 39.6, 11.4, 8.9, 11.0, 6.0], "type": "cpu", "timestamp": "2023-05-30 18:20:21"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:20:26"}
+ publish message - {"total": 67505094656, "available": 57267376128, "used": 9910132736, "percent": 15.2, "type": "memory", "timestamp": "2023-05-30 18:20:26"}
+ publish message - {"total": 210241560576, "used": 134173356032, "free": 65314009088, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:20:26"}
+ publish message - {"usage": 21.7, "cores": [28.3, 34.3, 32.3, 27.0, 25.9, 8.4, 6.8, 10.4], "type": "cpu", "timestamp": "2023-05-30 18:20:26"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52916224}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50618368}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50425856}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50597888}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50442240}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4247552}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15798272}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:20:27"}
+ publish message - {"usage": 21.1, "cores": [25.6, 39.3, 26.0, 23.0, 21.9, 10.8, 11.1, 11.1], "type": "cpu", "timestamp": "2023-05-30 18:20:31"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:20:36"}
+ publish message - {"total": 67505094656, "available": 57239969792, "used": 9937670144, "percent": 15.2, "type": "memory", "timestamp": "2023-05-30 18:20:36"}
+ publish message - {"total": 210241560576, "used": 134173675520, "free": 65313689600, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:20:36"}
+ publish message - {"usage": 20.9, "cores": [16.9, 45.8, 24.8, 42.9, 11.6, 8.6, 10.2, 6.6], "type": "cpu", "timestamp": "2023-05-30 18:20:36"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52916224}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50618368}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50425856}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50597888}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50442240}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4247552}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15798272}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:20:37"}
+ publish message - {"usage": 22.9, "cores": [29.6, 22.3, 38.7, 38.0, 17.1, 5.4, 20.4, 11.7], "type": "cpu", "timestamp": "2023-05-30 18:20:41"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:20:46"}
+ publish message - {"total": 67505094656, "available": 57186652160, "used": 9991127040, "percent": 15.3, "type": "memory", "timestamp": "2023-05-30 18:20:46"}
+ publish message - {"total": 210241560576, "used": 134174060544, "free": 65313304576, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:20:46"}
+ publish message - {"usage": 18.2, "cores": [15.6, 34.5, 29.8, 34.6, 5.9, 4.6, 9.5, 10.8], "type": "cpu", "timestamp": "2023-05-30 18:20:46"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52916224}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50618368}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50425856}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50597888}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50442240}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4247552}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15798272}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:20:47"}
+ publish message - {"usage": 20.1, "cores": [24.7, 31.0, 21.4, 48.5, 11.5, 5.0, 5.6, 13.1], "type": "cpu", "timestamp": "2023-05-30 18:20:51"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:20:56"}
+ publish message - {"total": 67505094656, "available": 57162371072, "used": 10013020160, "percent": 15.3, "type": "memory", "timestamp": "2023-05-30 18:20:56"}
+ publish message - {"total": 210241560576, "used": 134174429184, "free": 65312935936, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:20:56"}
+ publish message - {"usage": 21.2, "cores": [37.8, 42.6, 30.0, 23.7, 12.0, 6.2, 12.6, 4.6], "type": "cpu", "timestamp": "2023-05-30 18:20:56"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52903936}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50606080}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50413568}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50429952}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4046848}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15798272}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:20:57"}
+ publish message - {"usage": 20.5, "cores": [24.0, 45.7, 21.9, 36.2, 26.4, 2.6, 4.6, 3.2], "type": "cpu", "timestamp": "2023-05-30 18:21:01"}
+2023-05-30 18:21:06.860 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:06.862 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:06.863 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:06.888 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:08.187 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:11.892 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:16.868 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:16.870 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:16.871 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:16.896 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:18.301 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:21.900 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:26.875 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:26.876 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:26.877 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:26.902 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:28.412 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:31.908 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:36.880 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:36.881 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:36.882 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:36.911 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:38.531 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:41.917 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:46.888 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:46.889 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:46.890 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:46.921 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:48.635 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:51.927 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:21:06"}
+ publish message - {"total": 67505094656, "available": 57172639744, "used": 10002886656, "percent": 15.3, "type": "memory", "timestamp": "2023-05-30 18:21:06"}
+ publish message - {"total": 210241560576, "used": 134174748672, "free": 65312616448, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:21:06"}
+ publish message - {"usage": 20.3, "cores": [19.1, 34.5, 40.1, 23.4, 27.4, 7.1, 6.1, 4.6], "type": "cpu", "timestamp": "2023-05-30 18:21:06"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52903936}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50606080}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50413568}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50429952}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4046848}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15847424}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:21:08"}
+ publish message - {"usage": 20.4, "cores": [23.3, 29.8, 38.4, 33.9, 14.4, 6.2, 11.0, 6.4], "type": "cpu", "timestamp": "2023-05-30 18:21:11"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:21:16"}
+ publish message - {"total": 67505094656, "available": 57111388160, "used": 10064265216, "percent": 15.4, "type": "memory", "timestamp": "2023-05-30 18:21:16"}
+ publish message - {"total": 210241560576, "used": 134175109120, "free": 65312256000, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:21:16"}
+ publish message - {"usage": 21.4, "cores": [29.9, 21.8, 30.8, 41.0, 25.0, 9.4, 7.2, 5.8], "type": "cpu", "timestamp": "2023-05-30 18:21:16"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52903936}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50606080}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50413568}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50429952}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4046848}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15847424}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:21:18"}
+ publish message - {"usage": 20.0, "cores": [19.4, 34.4, 48.4, 16.1, 25.8, 3.8, 7.5, 4.4], "type": "cpu", "timestamp": "2023-05-30 18:21:21"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:21:26"}
+ publish message - {"total": 67505094656, "available": 57095315456, "used": 10080477184, "percent": 15.4, "type": "memory", "timestamp": "2023-05-30 18:21:26"}
+ publish message - {"total": 210241560576, "used": 134175481856, "free": 65311883264, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:21:26"}
+ publish message - {"usage": 20.8, "cores": [12.5, 14.5, 52.9, 43.0, 14.7, 11.9, 8.0, 8.2], "type": "cpu", "timestamp": "2023-05-30 18:21:26"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52903936}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50606080}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50413568}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50429952}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4046848}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15847424}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:21:28"}
+ publish message - {"usage": 21.4, "cores": [37.3, 24.2, 24.7, 53.8, 6.2, 9.6, 7.9, 7.6], "type": "cpu", "timestamp": "2023-05-30 18:21:31"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:21:36"}
+ publish message - {"total": 67505094656, "available": 57080811520, "used": 10092859392, "percent": 15.4, "type": "memory", "timestamp": "2023-05-30 18:21:36"}
+ publish message - {"total": 210241560576, "used": 134175768576, "free": 65311596544, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:21:36"}
+ publish message - {"usage": 19.5, "cores": [20.2, 32.4, 18.0, 55.1, 8.4, 9.1, 7.2, 5.8], "type": "cpu", "timestamp": "2023-05-30 18:21:36"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 3870720}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15761408}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:21:38"}
+ publish message - {"usage": 17.0, "cores": [20.0, 24.2, 44.1, 20.4, 8.6, 5.6, 7.8, 5.8], "type": "cpu", "timestamp": "2023-05-30 18:21:41"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:21:46"}
+ publish message - {"total": 67505094656, "available": 57800540160, "used": 9373175808, "percent": 14.4, "type": "memory", "timestamp": "2023-05-30 18:21:46"}
+ publish message - {"total": 210241560576, "used": 134175981568, "free": 65311383552, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:21:46"}
+ publish message - {"usage": 6.6, "cores": [5.2, 25.1, 2.0, 2.8, 3.8, 2.6, 4.4, 7.2], "type": "cpu", "timestamp": "2023-05-30 18:21:46"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4145152}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15761408}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:21:48"}
+ publish message - {"usage": 6.5, "cores": [6.3, 19.3, 11.7, 1.6, 2.6, 4.2, 3.0, 3.2], "type": "cpu", "timestamp": "2023-05-30 18:21:51"}
+2023-05-30 18:21:56.896 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:56.898 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:56.899 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:56.930 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:21:58.807 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:01.937 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:06.900 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:06.901 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:06.901 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:06.940 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:08.917 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:11.945 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:16.907 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:16.908 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:16.909 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:16.949 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:19.024 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:21.956 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:26.914 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:26.916 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:26.918 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:26.965 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:29.135 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:31.996 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:36.923 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:36.936 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:36.937 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:36.999 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:39.274 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:42.005 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:21:56"}
+ publish message - {"total": 67505094656, "available": 57830690816, "used": 9342857216, "percent": 14.3, "type": "memory", "timestamp": "2023-05-30 18:21:56"}
+ publish message - {"total": 210241560576, "used": 134176112640, "free": 65311252480, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:21:56"}
+ publish message - {"usage": 8.6, "cores": [12.6, 3.9, 29.9, 5.8, 5.2, 4.8, 3.0, 3.0], "type": "cpu", "timestamp": "2023-05-30 18:21:56"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4145152}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15761408}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:21:58"}
+ publish message - {"usage": 7.0, "cores": [7.5, 26.1, 6.0, 3.6, 2.6, 1.8, 2.0, 7.0], "type": "cpu", "timestamp": "2023-05-30 18:22:01"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:22:06"}
+ publish message - {"total": 67505094656, "available": 57834672128, "used": 9338740736, "percent": 14.3, "type": "memory", "timestamp": "2023-05-30 18:22:06"}
+ publish message - {"total": 210241560576, "used": 134176153600, "free": 65311211520, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:22:06"}
+ publish message - {"usage": 4.1, "cores": [6.9, 4.0, 6.4, 4.4, 1.6, 2.2, 4.4, 2.4], "type": "cpu", "timestamp": "2023-05-30 18:22:06"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4145152}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15699968}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:22:08"}
+ publish message - {"usage": 9.7, "cores": [12.8, 8.8, 23.7, 12.1, 5.0, 5.2, 5.6, 5.0], "type": "cpu", "timestamp": "2023-05-30 18:22:11"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:22:16"}
+ publish message - {"total": 67505094656, "available": 57818120192, "used": 9355354112, "percent": 14.3, "type": "memory", "timestamp": "2023-05-30 18:22:16"}
+ publish message - {"total": 210241560576, "used": 134176251904, "free": 65311113216, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:22:16"}
+ publish message - {"usage": 6.2, "cores": [5.4, 7.8, 4.2, 24.7, 1.2, 1.2, 2.0, 3.4], "type": "cpu", "timestamp": "2023-05-30 18:22:16"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15724544}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:22:19"}
+ publish message - {"usage": 7.0, "cores": [6.7, 4.4, 3.2, 26.7, 3.2, 2.6, 5.0, 3.6], "type": "cpu", "timestamp": "2023-05-30 18:22:21"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:22:26"}
+ publish message - {"total": 67505094656, "available": 57818497024, "used": 9354928128, "percent": 14.3, "type": "memory", "timestamp": "2023-05-30 18:22:26"}
+ publish message - {"total": 210241560576, "used": 134176374784, "free": 65310990336, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:22:26"}
+ publish message - {"usage": 7.9, "cores": [9.7, 6.5, 4.2, 26.1, 3.0, 3.4, 7.0, 3.4], "type": "cpu", "timestamp": "2023-05-30 18:22:26"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15835136}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:22:29"}
+ publish message - {"usage": 5.7, "cores": [6.1, 8.4, 3.4, 19.7, 2.8, 2.8, 2.2, 1.0], "type": "cpu", "timestamp": "2023-05-30 18:22:31"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:22:36"}
+ publish message - {"total": 67505094656, "available": 57824067584, "used": 9349378048, "percent": 14.3, "type": "memory", "timestamp": "2023-05-30 18:22:36"}
+ publish message - {"total": 210241560576, "used": 134176419840, "free": 65310945280, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:22:36"}
+ publish message - {"usage": 4.8, "cores": [7.7, 5.0, 5.2, 12.4, 2.6, 1.6, 2.6, 1.4], "type": "cpu", "timestamp": "2023-05-30 18:22:36"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15835136}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:22:39"}
+ publish message - {"usage": 8.1, "cores": [11.0, 5.4, 6.7, 28.3, 4.8, 4.0, 1.8, 2.2], "type": "cpu", "timestamp": "2023-05-30 18:22:42"}
+2023-05-30 18:22:46.943 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:46.945 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:46.946 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:47.020 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:49.448 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:52.025 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:56.950 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:56.952 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:56.953 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:57.028 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:22:59.561 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:02.032 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:06.954 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:06.956 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:06.957 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:07.035 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:09.675 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:12.041 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:16.962 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:16.964 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:16.965 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:17.044 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:19.781 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:22.050 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:26.968 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:26.969 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:26.969 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:27.053 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:29.892 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:32.069 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:22:46"}
+ publish message - {"total": 67505094656, "available": 57836089344, "used": 9337380864, "percent": 14.3, "type": "memory", "timestamp": "2023-05-30 18:22:46"}
+ publish message - {"total": 210241560576, "used": 134176509952, "free": 65310855168, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:22:46"}
+ publish message - {"usage": 6.5, "cores": [7.3, 9.6, 3.2, 24.9, 1.8, 1.4, 1.4, 2.8], "type": "cpu", "timestamp": "2023-05-30 18:22:47"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15757312}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:22:49"}
+ publish message - {"usage": 6.7, "cores": [6.7, 7.4, 2.4, 24.4, 4.4, 2.4, 2.6, 3.6], "type": "cpu", "timestamp": "2023-05-30 18:22:52"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:22:56"}
+ publish message - {"total": 67505094656, "available": 57795219456, "used": 9378291712, "percent": 14.4, "type": "memory", "timestamp": "2023-05-30 18:22:56"}
+ publish message - {"total": 210241560576, "used": 134176632832, "free": 65310732288, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:22:56"}
+ publish message - {"usage": 8.2, "cores": [17.5, 3.8, 3.2, 25.4, 3.8, 3.4, 4.8, 3.8], "type": "cpu", "timestamp": "2023-05-30 18:22:57"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15757312}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:22:59"}
+ publish message - {"usage": 4.5, "cores": [6.1, 4.4, 7.8, 6.6, 3.2, 2.2, 3.0, 2.8], "type": "cpu", "timestamp": "2023-05-30 18:23:02"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:23:06"}
+ publish message - {"total": 67505094656, "available": 57795788800, "used": 9377734656, "percent": 14.4, "type": "memory", "timestamp": "2023-05-30 18:23:06"}
+ publish message - {"total": 210241560576, "used": 134176681984, "free": 65310683136, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:23:06"}
+ publish message - {"usage": 6.6, "cores": [6.3, 4.6, 5.2, 22.9, 3.8, 2.4, 2.8, 3.6], "type": "cpu", "timestamp": "2023-05-30 18:23:07"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15773696}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:23:09"}
+ publish message - {"usage": 8.8, "cores": [9.6, 9.4, 4.0, 26.7, 4.4, 7.8, 3.2, 5.0], "type": "cpu", "timestamp": "2023-05-30 18:23:12"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:23:16"}
+ publish message - {"total": 67505094656, "available": 57797328896, "used": 9376190464, "percent": 14.4, "type": "memory", "timestamp": "2023-05-30 18:23:16"}
+ publish message - {"total": 210241560576, "used": 134176768000, "free": 65310597120, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:23:16"}
+ publish message - {"usage": 6.5, "cores": [13.3, 3.4, 7.6, 4.3, 2.8, 16.0, 2.0, 2.6], "type": "cpu", "timestamp": "2023-05-30 18:23:17"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15773696}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:23:19"}
+ publish message - {"usage": 8.3, "cores": [14.9, 5.1, 6.8, 20.9, 5.0, 7.8, 2.2, 3.4], "type": "cpu", "timestamp": "2023-05-30 18:23:22"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:23:26"}
+ publish message - {"total": 67505094656, "available": 57793298432, "used": 9380433920, "percent": 14.4, "type": "memory", "timestamp": "2023-05-30 18:23:26"}
+ publish message - {"total": 210241560576, "used": 134176915456, "free": 65310449664, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:23:26"}
+ publish message - {"usage": 6.0, "cores": [6.5, 5.4, 8.1, 18.5, 1.8, 1.4, 4.6, 1.8], "type": "cpu", "timestamp": "2023-05-30 18:23:27"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15933440}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:23:29"}
+ publish message - {"usage": 5.3, "cores": [7.7, 5.2, 9.3, 13.0, 1.2, 2.2, 1.8, 1.2], "type": "cpu", "timestamp": "2023-05-30 18:23:32"}
+2023-05-30 18:23:36.976 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:36.977 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:36.978 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:37.082 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:40.063 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:42.111 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:46.983 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:46.985 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:46.986 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:47.115 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:50.170 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:52.118 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:56.990 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:56.992 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:56.993 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:23:57.121 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:00.280 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:02.126 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:06.998 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:07.001 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:07.002 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:07.128 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:10.383 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:12.133 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:17.006 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:17.008 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:17.009 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:17.136 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:20.558 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:22.141 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:23:36"}
+ publish message - {"total": 67505094656, "available": 57792499712, "used": 9381113856, "percent": 14.4, "type": "memory", "timestamp": "2023-05-30 18:23:36"}
+ publish message - {"total": 210241560576, "used": 134176964608, "free": 65310400512, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:23:36"}
+ publish message - {"usage": 6.5, "cores": [6.2, 4.0, 4.8, 24.6, 1.6, 4.5, 3.0, 3.2], "type": "cpu", "timestamp": "2023-05-30 18:23:37"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15769600}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:23:40"}
+ publish message - {"usage": 8.2, "cores": [10.2, 6.2, 6.6, 22.0, 10.6, 3.0, 3.2, 4.0], "type": "cpu", "timestamp": "2023-05-30 18:23:42"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:23:46"}
+ publish message - {"total": 67505094656, "available": 57799663616, "used": 9373954048, "percent": 14.4, "type": "memory", "timestamp": "2023-05-30 18:23:46"}
+ publish message - {"total": 210241560576, "used": 134177042432, "free": 65310322688, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:23:46"}
+ publish message - {"usage": 7.1, "cores": [7.7, 5.8, 7.4, 19.1, 12.2, 1.6, 1.2, 1.2], "type": "cpu", "timestamp": "2023-05-30 18:23:47"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15749120}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:23:50"}
+ publish message - {"usage": 6.4, "cores": [7.9, 5.6, 3.6, 23.7, 2.2, 3.4, 2.6, 2.0], "type": "cpu", "timestamp": "2023-05-30 18:23:52"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:23:56"}
+ publish message - {"total": 67505094656, "available": 57810124800, "used": 9363468288, "percent": 14.4, "type": "memory", "timestamp": "2023-05-30 18:23:56"}
+ publish message - {"total": 210241560576, "used": 134177173504, "free": 65310191616, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:23:56"}
+ publish message - {"usage": 4.8, "cores": [11.0, 7.9, 5.0, 7.0, 1.6, 1.2, 3.2, 1.2], "type": "cpu", "timestamp": "2023-05-30 18:23:57"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15749120}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:24:00"}
+ publish message - {"usage": 6.9, "cores": [6.4, 7.0, 6.6, 26.9, 1.2, 3.4, 1.6, 2.2], "type": "cpu", "timestamp": "2023-05-30 18:24:02"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:24:06"}
+ publish message - {"total": 67505094656, "available": 57777057792, "used": 9396539392, "percent": 14.4, "type": "memory", "timestamp": "2023-05-30 18:24:06"}
+ publish message - {"total": 210241560576, "used": 134177230848, "free": 65310134272, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:24:06"}
+ publish message - {"usage": 7.9, "cores": [13.2, 5.8, 5.2, 27.8, 4.8, 1.6, 3.0, 2.2], "type": "cpu", "timestamp": "2023-05-30 18:24:07"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15802368}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:24:10"}
+ publish message - {"usage": 8.7, "cores": [16.6, 7.7, 7.0, 10.6, 10.6, 5.6, 5.6, 5.6], "type": "cpu", "timestamp": "2023-05-30 18:24:12"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:24:17"}
+ publish message - {"total": 67505094656, "available": 57781207040, "used": 9392410624, "percent": 14.4, "type": "memory", "timestamp": "2023-05-30 18:24:17"}
+ publish message - {"total": 210241560576, "used": 134177320960, "free": 65310044160, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:24:17"}
+ publish message - {"usage": 6.5, "cores": [24.9, 5.0, 3.6, 8.4, 4.4, 1.6, 1.6, 2.2], "type": "cpu", "timestamp": "2023-05-30 18:24:17"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15802368}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:24:20"}
+ publish message - {"usage": 4.9, "cores": [9.6, 7.0, 5.4, 7.2, 1.6, 3.8, 2.0, 2.4], "type": "cpu", "timestamp": "2023-05-30 18:24:22"}
+2023-05-30 18:24:27.012 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:27.014 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:27.016 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:27.144 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:30.671 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:32.160 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:37.017 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:37.019 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:37.021 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:37.176 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:40.779 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:42.194 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:47.022 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:47.024 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:47.025 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:47.198 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:50.909 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:52.211 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:57.028 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:57.030 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:57.031 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:24:57.215 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:01.082 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:02.220 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:07.038 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:07.039 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:07.040 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:07.223 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:11.198 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:12.227 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:24:27"}
+ publish message - {"total": 67505094656, "available": 57805385728, "used": 9368215552, "percent": 14.4, "type": "memory", "timestamp": "2023-05-30 18:24:27"}
+ publish message - {"total": 210241560576, "used": 134177456128, "free": 65309908992, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:24:27"}
+ publish message - {"usage": 7.6, "cores": [8.3, 26.2, 5.4, 6.9, 2.8, 6.2, 2.0, 3.4], "type": "cpu", "timestamp": "2023-05-30 18:24:27"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15802368}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:24:30"}
+ publish message - {"usage": 8.0, "cores": [5.1, 8.0, 24.8, 6.7, 1.6, 3.0, 9.8, 4.0], "type": "cpu", "timestamp": "2023-05-30 18:24:32"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:24:37"}
+ publish message - {"total": 67505094656, "available": 57802915840, "used": 9370701824, "percent": 14.4, "type": "memory", "timestamp": "2023-05-30 18:24:37"}
+ publish message - {"total": 210241560576, "used": 134177501184, "free": 65309863936, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:24:37"}
+ publish message - {"usage": 6.7, "cores": [6.1, 6.2, 26.6, 5.2, 1.4, 1.8, 3.8, 3.2], "type": "cpu", "timestamp": "2023-05-30 18:24:37"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15872000}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:24:40"}
+ publish message - {"usage": 7.9, "cores": [9.4, 8.1, 25.2, 5.1, 7.8, 2.6, 2.8, 2.2], "type": "cpu", "timestamp": "2023-05-30 18:24:42"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:24:47"}
+ publish message - {"total": 67505094656, "available": 57799479296, "used": 9374138368, "percent": 14.4, "type": "memory", "timestamp": "2023-05-30 18:24:47"}
+ publish message - {"total": 210241560576, "used": 134177595392, "free": 65309769728, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:24:47"}
+ publish message - {"usage": 5.6, "cores": [7.9, 4.8, 15.6, 7.0, 2.0, 3.2, 2.0, 2.2], "type": "cpu", "timestamp": "2023-05-30 18:24:47"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15872000}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:24:50"}
+ publish message - {"usage": 5.0, "cores": [6.7, 6.0, 15.3, 3.8, 1.4, 3.4, 2.6, 1.6], "type": "cpu", "timestamp": "2023-05-30 18:24:52"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:24:57"}
+ publish message - {"total": 67505094656, "available": 57817931776, "used": 9355677696, "percent": 14.4, "type": "memory", "timestamp": "2023-05-30 18:24:57"}
+ publish message - {"total": 210241560576, "used": 134177710080, "free": 65309655040, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:24:57"}
+ publish message - {"usage": 7.3, "cores": [8.6, 8.0, 27.3, 4.4, 2.2, 2.6, 2.8, 2.0], "type": "cpu", "timestamp": "2023-05-30 18:24:57"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15888384}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:25:01"}
+ publish message - {"usage": 6.9, "cores": [9.1, 16.6, 19.0, 4.4, 2.0, 1.0, 2.0, 1.4], "type": "cpu", "timestamp": "2023-05-30 18:25:02"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:25:07"}
+ publish message - {"total": 67505094656, "available": 57815109632, "used": 9358508032, "percent": 14.4, "type": "memory", "timestamp": "2023-05-30 18:25:07"}
+ publish message - {"total": 210241560576, "used": 134177755136, "free": 65309609984, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:25:07"}
+ publish message - {"usage": 7.1, "cores": [5.5, 29.4, 5.2, 3.8, 3.0, 3.6, 2.8, 2.4], "type": "cpu", "timestamp": "2023-05-30 18:25:07"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15904768}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:25:11"}
+ publish message - {"usage": 9.4, "cores": [14.3, 28.3, 12.1, 3.6, 3.6, 2.4, 7.0, 3.6], "type": "cpu", "timestamp": "2023-05-30 18:25:12"}
+2023-05-30 18:25:17.044 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:17.045 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:17.045 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:17.230 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:21.307 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:22.232 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:27.048 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:27.049 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:27.049 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:27.235 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:31.412 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:32.240 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:37.052 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:37.053 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:37.054 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:37.242 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:41.563 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:42.244 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:47.059 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:47.060 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:47.061 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:47.247 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:51.666 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:52.251 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:57.064 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:57.065 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:57.066 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:25:57.254 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:01.771 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:02.257 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:25:17"}
+ publish message - {"total": 67505094656, "available": 57624035328, "used": 9549582336, "percent": 14.6, "type": "memory", "timestamp": "2023-05-30 18:25:17"}
+ publish message - {"total": 210241560576, "used": 134177857536, "free": 65309507584, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:25:17"}
+ publish message - {"usage": 13.9, "cores": [26.4, 12.2, 4.8, 6.2, 44.2, 6.4, 5.2, 5.8], "type": "cpu", "timestamp": "2023-05-30 18:25:17"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15904768}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:25:21"}
+ publish message - {"usage": 18.8, "cores": [24.8, 9.2, 65.2, 8.8, 26.2, 7.0, 5.2, 3.8], "type": "cpu", "timestamp": "2023-05-30 18:25:22"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:25:27"}
+ publish message - {"total": 67505094656, "available": 57479176192, "used": 9694547968, "percent": 14.9, "type": "memory", "timestamp": "2023-05-30 18:25:27"}
+ publish message - {"total": 210241560576, "used": 134178217984, "free": 65309147136, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:25:27"}
+ publish message - {"usage": 22.5, "cores": [18.1, 36.4, 29.4, 38.2, 27.1, 7.2, 7.2, 15.8], "type": "cpu", "timestamp": "2023-05-30 18:25:27"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15904768}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:25:31"}
+ publish message - {"usage": 22.3, "cores": [26.7, 28.7, 34.6, 36.4, 25.5, 4.2, 17.9, 4.2], "type": "cpu", "timestamp": "2023-05-30 18:25:32"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:25:37"}
+ publish message - {"total": 67505094656, "available": 57189810176, "used": 9983979520, "percent": 15.3, "type": "memory", "timestamp": "2023-05-30 18:25:37"}
+ publish message - {"total": 210241560576, "used": 134178533376, "free": 65308831744, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:25:37"}
+ publish message - {"usage": 33.6, "cores": [36.8, 36.4, 32.5, 47.1, 6.4, 7.1, 93.0, 9.3], "type": "cpu", "timestamp": "2023-05-30 18:25:37"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15773696}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:25:41"}
+ publish message - {"usage": 33.0, "cores": [33.3, 51.6, 40.4, 37.1, 28.7, 12.5, 35.4, 24.6], "type": "cpu", "timestamp": "2023-05-30 18:25:42"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:25:47"}
+ publish message - {"total": 67505094656, "available": 57121873920, "used": 10052280320, "percent": 15.4, "type": "memory", "timestamp": "2023-05-30 18:25:47"}
+ publish message - {"total": 210241560576, "used": 134179127296, "free": 65308237824, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:25:47"}
+ publish message - {"usage": 32.0, "cores": [40.1, 44.0, 30.6, 35.8, 25.6, 23.3, 32.7, 24.2], "type": "cpu", "timestamp": "2023-05-30 18:25:47"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15773696}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:25:51"}
+ publish message - {"usage": 34.0, "cores": [30.8, 47.7, 48.0, 41.9, 26.2, 28.7, 20.6, 28.3], "type": "cpu", "timestamp": "2023-05-30 18:25:52"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:25:57"}
+ publish message - {"total": 67505094656, "available": 57059307520, "used": 10115227648, "percent": 15.5, "type": "memory", "timestamp": "2023-05-30 18:25:57"}
+ publish message - {"total": 210241560576, "used": 134179766272, "free": 65307598848, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:25:57"}
+ publish message - {"usage": 37.1, "cores": [34.9, 66.4, 50.4, 45.1, 27.0, 25.9, 22.2, 25.4], "type": "cpu", "timestamp": "2023-05-30 18:25:57"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52883456}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50585600}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50393088}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50565120}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50409472}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4472832}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15691776}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:26:01"}
+ publish message - {"usage": 35.8, "cores": [28.3, 41.5, 56.3, 50.1, 30.7, 26.4, 31.0, 21.9], "type": "cpu", "timestamp": "2023-05-30 18:26:02"}
+2023-05-30 18:26:07.071 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:07.072 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:07.072 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:07.259 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:11.877 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:12.262 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:17.076 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:17.077 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:17.077 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:17.266 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:21.986 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:22.269 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:27.080 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:27.082 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:27.083 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:27.271 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:32.093 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:32.274 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:37.087 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:37.088 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:37.089 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:37.276 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:42.218 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:42.278 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:47.094 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:47.096 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:47.097 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:47.281 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:52.336 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:52.338 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:26:07"}
+ publish message - {"total": 67505094656, "available": 57003257856, "used": 10168926208, "percent": 15.6, "type": "memory", "timestamp": "2023-05-30 18:26:07"}
+ publish message - {"total": 210241560576, "used": 134180347904, "free": 65307017216, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:26:07"}
+ publish message - {"usage": 34.4, "cores": [25.6, 50.8, 46.1, 42.1, 44.3, 25.9, 24.0, 16.4], "type": "cpu", "timestamp": "2023-05-30 18:26:07"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52858880}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50561024}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50368512}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50540544}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50384896}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4460544}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15785984}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:26:11"}
+ publish message - {"usage": 33.1, "cores": [28.5, 50.7, 33.5, 46.8, 20.4, 20.7, 32.4, 31.9], "type": "cpu", "timestamp": "2023-05-30 18:26:12"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:26:17"}
+ publish message - {"total": 67505094656, "available": 56948232192, "used": 10224238592, "percent": 15.6, "type": "memory", "timestamp": "2023-05-30 18:26:17"}
+ publish message - {"total": 210241560576, "used": 134180954112, "free": 65306411008, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:26:17"}
+ publish message - {"usage": 34.1, "cores": [42.6, 40.1, 35.4, 44.9, 27.0, 44.6, 22.6, 15.6], "type": "cpu", "timestamp": "2023-05-30 18:26:17"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52858880}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50561024}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50368512}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50540544}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50384896}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4460544}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15859712}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:26:21"}
+ publish message - {"usage": 34.0, "cores": [42.2, 43.1, 51.6, 30.5, 31.7, 18.6, 28.8, 25.4], "type": "cpu", "timestamp": "2023-05-30 18:26:22"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:26:27"}
+ publish message - {"total": 67505094656, "available": 56919252992, "used": 10250805248, "percent": 15.7, "type": "memory", "timestamp": "2023-05-30 18:26:27"}
+ publish message - {"total": 210241560576, "used": 134181576704, "free": 65305788416, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:26:27"}
+ publish message - {"usage": 34.9, "cores": [45.6, 38.4, 43.8, 35.4, 31.6, 37.3, 32.6, 14.8], "type": "cpu", "timestamp": "2023-05-30 18:26:27"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52858880}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50561024}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50368512}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50540544}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50384896}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4399104}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15831040}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:26:32"}
+ publish message - {"usage": 36.3, "cores": [29.8, 53.8, 51.9, 37.2, 27.3, 20.7, 32.9, 37.2], "type": "cpu", "timestamp": "2023-05-30 18:26:32"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:26:37"}
+ publish message - {"total": 67505094656, "available": 56823365632, "used": 10344472576, "percent": 15.8, "type": "memory", "timestamp": "2023-05-30 18:26:37"}
+ publish message - {"total": 210241560576, "used": 134182154240, "free": 65305210880, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:26:37"}
+ publish message - {"usage": 32.3, "cores": [27.6, 47.4, 38.2, 39.8, 31.3, 25.0, 28.2, 21.2], "type": "cpu", "timestamp": "2023-05-30 18:26:37"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52858880}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50561024}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50368512}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50540544}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50384896}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4341760}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15687680}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:26:42"}
+ publish message - {"usage": 34.4, "cores": [28.7, 48.2, 35.7, 54.0, 41.4, 22.0, 25.1, 20.0], "type": "cpu", "timestamp": "2023-05-30 18:26:42"}
+ publish message - {"total": 4294963200, "used": 1060864, "free": 4293902336, "percent": 0.0, "type": "swap", "timestamp": "2023-05-30 18:26:47"}
+ publish message - {"total": 67505094656, "available": 56769949696, "used": 10398248960, "percent": 15.9, "type": "memory", "timestamp": "2023-05-30 18:26:47"}
+ publish message - {"total": 210241560576, "used": 134182744064, "free": 65304621056, "percent": 67.3, "type": "disk", "timestamp": "2023-05-30 18:26:47"}
+ publish message - {"usage": 33.8, "cores": [31.8, 46.4, 40.6, 51.0, 34.3, 23.0, 25.8, 17.8], "type": "cpu", "timestamp": "2023-05-30 18:26:47"}
+ publish message - {"processes": [{"pid": 6226, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 52858880}, {"pid": 6315, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50561024}, {"pid": 6316, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50368512}, {"pid": 6317, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50540544}, {"pid": 6318, "cmdline": "flask_jwt_server.py", "cpu_usage": 0.0, "memory_usage": 50384896}, {"pid": 19958, "cmdline": "redis-server 10.8.0.181:6379      ", "cpu_usage": 0.0, "memory_usage": 4341760}, {"pid": 3877, "cmdline": "redis-server unixsocket:/var/opt/gitlab/redis/redis.socket", "cpu_usage": 0.0, "memory_usage": 15687680}, {"pid": 12971, "cmdline": "rabbitmq-server", "cpu_usage": 0.0, "memory_usage": 655360}], "type": "process", "timestamp": "2023-05-30 18:26:52"}
+ publish message - {"usage": 34.0, "cores": [31.8, 46.6, 27.7, 53.5, 31.8, 39.7, 19.6, 22.0], "type": "cpu", "timestamp": "2023-05-30 18:26:52"}
+2023-05-30 18:26:57.100 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:57.101 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system
+2023-05-30 18:26:57.102 | INFO     | apocolib.RabbitMQProducer:publish:29 - queue_name is system

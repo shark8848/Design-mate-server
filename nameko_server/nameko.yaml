@@ -1,0 +1,46 @@
+AMQP_URI: 'amqp://guest:guest@192.168.1.19'
+rpc_exchange: 'nameko-rpc'
+max_workers: 10
+parent_calls_tracked: 10
+#WEB_SERVER_ADDRESS: 10.8.0.181:8888
+#WEB_SERVER_CONFIG: {}
+STRICT: true
+MAX_WORKERS: 10
+HEARTBEAT_INTERVAL: 5
+BACKOFF_FACTOR: 1
+BACKOFF_MAX: 500
+RPC_EXCHANGE: nameko-rpc
+SERIALIZER: nameko-msgpack
+ACKS_LATE: false
+PERSISTENT: true
+#RESULT_BACKEND: rpc://
+IDLE_CONNECTION_TIMEOUT: 60
+
+usersService:
+  name: usersService
+  rpc:
+    add_user: usersService.add_user
+
+organizationsService:
+  name: organizationsService
+  rpc:
+    get_organizations_info: organizationService.get_organizations_info
+    get_organization_info: organizationService.get_organization_info
+
+buildingSpaceTypeService:
+  name: buildingSpaceTypeService
+  rpc:
+    getBuildingSpaceTypeService: buildingSpaceTypeService.getBuildingSpaceTypeService
+
+buildingClassificationsService:
+  name: buildingClassificationsService
+  rpc:
+    getBuildingClassificationsService: buildingClassificationsService.getBuildingClassificationsService
+
+buildingSpaceCompositionInformationService:
+  name: buildingSpaceCompositionInformationService
+  rpc:
+    getAllBuildingSpaceCompositionInformationService: buildingSpaceCompositionInformationService.getAllBuildingSpaceCompositionInformation
+    getOneBuildingSpaceCompositionInformationService: buildingSpaceCompositionInformationService.getOneBuildingSpaceCompositionInformation
+    addOneBuildingSpaceCompositionInformationService: buildingSpaceCompositionInformationService.addOneBuildingSpaceCompositionInformation
+

@@ -1,0 +1,5 @@
+20230214 17:37:06  flask_jwt_server.adduser:127  INFO: call add user
+20230214 17:37:07  flask_jwt_server.adduser:129  INFO: call add user successfullyerror_code -2,msg database error
+20230214 17:37:25  flask_jwt_server.adduser:127  INFO: call add user
+20230214 17:37:25  flask_jwt_server.adduser:129  INFO: call add user successfullyerror_code 0,msg message: user added successfully
+20230215 11:28:39  flask_jwt_server.adduser:127  INFO: call add user

@@ -1,0 +1,474 @@
+{
+    "organizations": [
+        {
+            "organizationCode": "wanke",
+            "projects": [
+                {
+                    "projectId": "proj002",
+                    "buildingSpace": [
+                        {
+                            "buildingSpaceId": "BS008",
+                            "spaceName": "Main Office",
+                            "floorHeight": 3.5,
+                            "rooms": [
+                                {
+                                    "roomType": "Office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 3,
+                                            "orientation": "South"
+                                        },
+                                        {
+                                            "area": 2,
+                                            "orientation": "East"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "Conference",
+                                    "name": "Conference Room 1",
+                                    "area": 50,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "North"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-001",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-002",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-003",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "projectId": "proj003",
+                    "buildingSpace": [
+                        {
+                            "buildingSpaceId": "bs-007",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-008",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-009",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-010",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-011",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-012",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-013",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-014",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.3,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "buildingSpaceId": "bs-019",
+                            "spaceName": "Office Space",
+                            "floorHeight": 3.2,
+                            "rooms": [
+                                {
+                                    "roomType": "office",
+                                    "name": "Room 101",
+                                    "area": 25,
+                                    "exteriorWallArea": 10,
+                                    "windows": [
+                                        {
+                                            "area": 5,
+                                            "orientation": "east"
+                                        },
+                                        {
+                                            "area": 3,
+                                            "orientation": "south"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "roomType": "meeting",
+                                    "name": "Meeting Room",
+                                    "area": 35,
+                                    "exteriorWallArea": 15,
+                                    "windows": [
+                                        {
+                                            "area": 7,
+                                            "orientation": "north"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

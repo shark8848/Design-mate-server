@@ -1,0 +1,50 @@
+{
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InN1bnppbW8iLCJleHAiOjE2Nzk1NTM1NzMsImNsaWVudGlwIjoiMTE3LjE3Ni4yMTkuMTAxIn0.Pz0nvv_sW94hfiywM7xVFTxyMmtCIyIoE2twjLXIL_c",
+  "errorCode": 0,
+  "msg": "get sunzimo's permission successfully",
+  "permission": {
+    "organizationCode": "wanke",
+    "permissions": [
+            {
+                    "function": "role_manage",
+                    "subFunction":[
+                            {
+                                "api": "http://ai.apoco.com.cn/addRole",
+                                "functionName": "addrole",
+                                "url": "http://aiportal.apoco.com.cn/userManage/addRole"
+                            }
+                    ]
+            },
+
+            {
+                    "function": "user_manage",
+                    "subFunction":[
+                            {
+                                "api": "http://ai.apoco.com.cn/addRole",
+                                "functionName": "addrole",
+                                "url": "http://aiportal.apoco.com.cn/userManage/addRole"
+                            },
+                            {
+                              "api": "http://ai.apoco.com.cn/addUser",
+                              "functionName": "adduser",
+                              "url": "http://aiportal.apoco.com.cn/userManage/addUser"
+                            },
+                            {
+                              "api": "http://ai.apoco.com.cn/editUser",
+                              "functionName": "useredit",
+                              "url": "http://aiportal.apoco.com.cn/userManage/editUser"
+                            },
+                            {
+                              "api": "http://ai.apoco.com.cn/delUser",
+                              "functionName": "deluser",
+                              "url": "http://aiportal.apoco.com.cn/userManage/delUser"
+                            }
+                    ]
+            }
+    ],
+    "roles": [
+      "admin"
+    ],
+    "userId": "sunzimo"
+  }
+}

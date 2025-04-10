@@ -1,0 +1,50 @@
+{
+    "designLimits": {
+        "coolingLoad": {
+            "lowerLimit": 1,
+            "upperLimit": 1
+        },
+        "heatingLoad": {
+            "lowerLimit": 1,
+            "upperLimit": 1
+        }
+    },
+    "numberOfFloors": {
+        "aboveGround": 1,
+        "belowGround": 1
+    },
+    "organizationCode": "wanke",
+    "projectId": "proj003",
+    "buildingId": "1",
+    "buildingExternalSurfaceArea": 10000,
+    "buildingHeight": 100,
+    "buildingVolume": 1000,
+    "northAngle": 10,
+    "formFactor": 0.7,
+    "buildingName": "1",
+    "buildingOrientation": "East",
+    "structuralType": "Frame Structure",
+    "floors": [
+        {
+            "floorId": 1,
+            "buildingSpacesId": [
+                "number3",
+                "number4",
+                "number5",
+                "number1"
+            ]
+        },
+        {
+            "floorId": 2,
+            "buildingSpacesId": [
+                "number2"
+            ]
+        },
+        {
+            "floorId": 3,
+            "buildingSpacesId": [
+                "number2"
+            ]
+        }
+    ]
+}

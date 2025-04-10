@@ -1,0 +1,68 @@
+{
+    "organizationId": "wanke",
+    "projectId": "proj003",
+    "houseTemplate": {
+        "templateName": "测试005",
+        "floorHeight": 3,
+        "rooms": [
+            {
+                "room_name": "大客厅",
+                "room_length": 4,
+                "room_width": 5,
+                "room_height": 3,
+                "walls": [
+                    {
+                        "orientation": 0,
+                        "wall_width": 4,
+                        "wall_height": 3,
+                        "window": [
+                            {
+                                "orientation": 0,
+                                "window_width": 0.5,
+                                "window_height": 0.5
+                            }
+                        ]
+                    },
+                    {
+                        "orientation": 2,
+                        "wall_width": 4,
+                        "wall_height": 3,
+                        "window": [
+                            {
+                                "orientation": 2,
+                                "window_width": 1,
+                                "window_height": 1
+                            }
+                        ]
+                    },
+                    {
+                        "orientation": 1,
+                        "wall_width": 4,
+                        "wall_height": 3,
+                        "window": []
+                    },
+                    {
+                        "orientation": 1,
+                        "wall_width": 4,
+                        "wall_height": 3,
+                        "window": []
+                    }
+                ]
+            },
+            {
+                "room_name": "卧室",
+                "room_length": 6,
+                "room_width": 6,
+                "room_height": 3,
+                "walls": [
+                    {
+                        "orientation": 1,
+                        "wall_width": 6,
+                        "wall_height": 3,
+                        "window": []
+                    }
+                ]
+            }
+        ]
+    }
+}

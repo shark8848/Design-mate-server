@@ -1,0 +1,63 @@
+20230312 11:14:48 - quart_server.addOneProjectBuildingInformation:334 - INFO -before call addOneProjectBuildingInformation
+20230312 11:14:52 - quart_server.addOneProjectBuildingInformation:334 - INFO -before call addOneProjectBuildingInformation
+20230312 11:14:55 - quart_server.addOneProjectBuildingInformation:334 - INFO -before call addOneProjectBuildingInformation
+20230312 11:15:02 - quart_server.addOneProjectBuildingInformation:334 - INFO -before call addOneProjectBuildingInformation
+20230312 11:17:15 - quart_server.addOneProjectBuildingInformation:334 - INFO -before call addOneProjectBuildingInformation
+20230312 11:23:40 - quart_server.addOneProjectBuildingInformation:335 - INFO -before call addOneProjectBuildingInformation
+20230312 11:23:40 - quart_server.addOneProjectBuildingInformation:341 - INFO - <coroutine object Request.get_json at 0x7ff74accc840> 
+20230312 11:24:26 - quart_server.getOneProjectInformation:271 - INFO -before call getOneProjectInformation
+20230312 11:24:26 - quart_server.getOneProjectInformation:276 - INFO -called getOneProjectInformation
+20230312 11:24:27 - quart_server.getOneProjectInformation:271 - INFO -before call getOneProjectInformation
+20230312 11:24:27 - quart_server.getOneProjectInformation:276 - INFO -called getOneProjectInformation
+20230312 11:24:28 - quart_server.getOneProjectInformation:271 - INFO -before call getOneProjectInformation
+20230312 11:24:28 - quart_server.getOneProjectInformation:276 - INFO -called getOneProjectInformation
+20230312 11:24:30 - quart_server.getOneProjectInformation:271 - INFO -before call getOneProjectInformation
+20230312 11:24:30 - quart_server.getOneProjectInformation:276 - INFO -called getOneProjectInformation
+20230312 11:24:31 - quart_server.getOneProjectInformation:271 - INFO -before call getOneProjectInformation
+20230312 11:24:32 - quart_server.getOneProjectInformation:276 - INFO -called getOneProjectInformation
+20230312 11:24:44 - quart_server.getOneProjectInformation:271 - INFO -before call getOneProjectInformation
+20230312 11:24:44 - quart_server.getOneProjectInformation:276 - INFO -called getOneProjectInformation
+20230312 11:24:46 - quart_server.getOneProjectInformation:271 - INFO -before call getOneProjectInformation
+20230312 11:24:47 - quart_server.getOneProjectInformation:276 - INFO -called getOneProjectInformation
+20230312 11:24:50 - quart_server.addOneProjectInformation:284 - INFO -before call addOneProjectInformation
+20230312 11:24:50 - quart_server.addOneProjectInformation:290 - INFO - <coroutine object Request.get_json at 0x7ff74aca45c0> 
+20230312 11:24:52 - quart_server.addOneProjectInformation:284 - INFO -before call addOneProjectInformation
+20230312 11:24:52 - quart_server.addOneProjectInformation:290 - INFO - <coroutine object Request.get_json at 0x7ff74ad3e7c0> 
+20230312 11:25:02 - quart_server.getAllProjectsInformation:261 - INFO -before call getAllProjectsInformation
+20230312 11:25:02 - quart_server.getAllProjectsInformation:264 - INFO -called getAllProjectsInformation
+20230312 11:25:03 - quart_server.getAllProjectsInformation:261 - INFO -before call getAllProjectsInformation
+20230312 11:25:03 - quart_server.getAllProjectsInformation:264 - INFO -called getAllProjectsInformation
+20230312 11:25:10 - quart_server.getAllOrganizationsInformation:190 - INFO -before call getAllOrganizationsInformation
+20230312 11:25:10 - quart_server.getAllOrganizationsInformation:193 - INFO -called getAllOrganizationsInformation
+20230312 11:25:12 - quart_server.getAllOrganizationsInformation:190 - INFO -before call getAllOrganizationsInformation
+20230312 11:25:12 - quart_server.getAllOrganizationsInformation:193 - INFO -called getAllOrganizationsInformation
+20230312 11:25:16 - quart_server.getOneOrganizationInformation:200 - INFO -before call /getOneOrganizationInformation
+20230312 11:25:16 - quart_server.getOneOrganizationInformation:204 - INFO -called /getOneOrganizationInformation
+20230312 11:25:17 - quart_server.getOneOrganizationInformation:200 - INFO -before call /getOneOrganizationInformation
+20230312 11:25:18 - quart_server.getOneOrganizationInformation:204 - INFO -called /getOneOrganizationInformation
+20230312 11:25:23 - quart_server.editOneOrganizationInformation:228 - INFO -before call editOneOrganizationInformation
+20230312 11:25:23 - quart_server.editOneOrganizationInformation:234 - INFO - <coroutine object Request.get_json at 0x7ff74accbf40> 
+20230312 11:25:24 - quart_server.editOneOrganizationInformation:228 - INFO -before call editOneOrganizationInformation
+20230312 11:25:24 - quart_server.editOneOrganizationInformation:234 - INFO - <coroutine object Request.get_json at 0x7ff74a3c4240> 
+20230312 11:25:26 - quart_server.editOneOrganizationInformation:228 - INFO -before call editOneOrganizationInformation
+20230312 11:25:26 - quart_server.editOneOrganizationInformation:234 - INFO - <coroutine object Request.get_json at 0x7ff74a3f0740> 
+20230312 11:26:58 - quart_server.editOneOrganizationInformation:228 - INFO -before call editOneOrganizationInformation
+20230312 11:26:58 - quart_server.editOneOrganizationInformation:234 - INFO - <coroutine object Request.get_json at 0x7ff74a3d8140> 
+20230312 11:31:13 - quart_server.editOneOrganizationInformation:228 - INFO -before call editOneOrganizationInformation
+20230312 11:31:13 - quart_server.editOneOrganizationInformation:234 - INFO - <coroutine object Request.get_json at 0x7f74f50cf740> 
+20230312 11:31:16 - quart_server.editOneOrganizationInformation:228 - INFO -before call editOneOrganizationInformation
+20230312 11:31:16 - quart_server.editOneOrganizationInformation:234 - INFO - <coroutine object Request.get_json at 0x7f74f50cda40> 
+20230312 11:31:39 - quart_server.editOneOrganizationInformation:228 - INFO -before call editOneOrganizationInformation
+20230312 11:31:39 - quart_server.editOneOrganizationInformation:234 - INFO - <coroutine object Request.get_json at 0x7f74f50cdac0> 
+20230312 11:36:29 - quart_server.editOneOrganizationInformation:228 - INFO -before call editOneOrganizationInformation
+20230312 11:36:29 - quart_server.editOneOrganizationInformation:237 - INFO - <coroutine object Request.get_json at 0x7f0342736840> 
+20230312 11:36:55 - quart_server.editOneOrganizationInformation:228 - INFO -before call editOneOrganizationInformation
+20230312 11:36:55 - quart_server.editOneOrganizationInformation:237 - INFO - <coroutine object Request.get_json at 0x7f0342736ac0> 
+20230312 11:42:03 - quart_server.editOneOrganizationInformation:228 - INFO -before call editOneOrganizationInformation
+20230312 11:42:04 - quart_server.editOneOrganizationInformation:237 - INFO - <coroutine object Request.get_json at 0x7f8a95c78ac0> 
+20230312 11:42:20 - quart_server.editOneOrganizationInformation:228 - INFO -before call editOneOrganizationInformation
+20230312 11:42:20 - quart_server.editOneOrganizationInformation:237 - INFO - <coroutine object Request.get_json at 0x7f8a95c77ac0> 
+20230312 12:02:46 - quart_server.editOneOrganizationInformation:228 - INFO -before call editOneOrganizationInformation
+20230312 12:02:46 - quart_server.editOneOrganizationInformation:237 - INFO - <coroutine object Request.get_json at 0x7f3bbe22e840> 
+20230312 12:09:51 - quart_server.editOneOrganizationInformation:228 - INFO -before call editOneOrganizationInformation
+20230312 12:09:51 - quart_server.editOneOrganizationInformation:237 - INFO - '<coroutine object Request.get_json at 0x7fc242abb840>' 

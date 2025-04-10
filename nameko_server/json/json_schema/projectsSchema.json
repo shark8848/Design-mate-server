@@ -1,0 +1,66 @@
+{
+    "type": "object",
+    "properties": {
+        "organizations": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "organizationCode": { "type": "string", "minLength": 1 ,"uniqueItems": true},
+                    "projects": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "projectId": { "type": "string", "minLength": 1 ,"uniqueItems": true},
+                                "projectBuildingsIndexFile": { "type": "string", "minLength": 1 },
+                                "projectName": { "type": "string", "minLength": 1 },
+                                "projectType": { "type": "string", "minLength": 1 },
+                                "projectAddress": { "type": "string", "minLength": 1 },
+                                "geographicalLocation": {
+                                    "type": "object",
+                                    "properties": {
+                                        "Latitude": { "type": "number", "minimum": -90, "maximum": 90 },
+                                        "Longitude": { "type": "number", "minimum": -180, "maximum": 180 }
+                                    },
+                                    "required": ["Latitude", "Longitude"]
+                                },
+                                "climateZone": { "type": "string", "minLength": 1 },
+                                "solarAbsorptionCoefficient": {
+                                    "type": "object",
+                                    "properties": {
+                                        "externalWalls": { "type": "number" },
+                                        "roof": { "type": "number" }
+                                    },
+                                    "required": ["externalWalls", "roof"]
+                                },
+                                "yearOfConstruction": { "type": "number", "minimum": 0 },
+                                "landArea": { "type": "number", "minimum": 0 },
+                                "buildingArea": { "type": "number", "minimum": 0 },
+                                "designCompany": { "type": "string", "minLength": 1 },
+                                "constructionCompany": { "type": "string", "minLength": 1 }
+                            },
+                            "required": [
+                                "projectId",
+                                "projectBuildingsIndexFile",
+                                "projectName",
+                                "projectType",
+                                "projectAddress",
+                                "geographicalLocation",
+                                "climateZone",
+                                "solarAbsorptionCoefficient",
+                                "yearOfConstruction",
+                                "landArea",
+                                "buildingArea",
+                                "designCompany",
+                                "constructionCompany"
+                            ]
+                        }
+                    }
+                },
+                "required": ["organizationCode", "projects"]
+            }
+        }
+    },
+    "required": ["organizations"]
+}

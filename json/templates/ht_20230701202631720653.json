@@ -1,0 +1,64 @@
+{
+    "organizationId": "wanke",
+    "projectId": "proj003",
+    "houseTemplate": {
+        "templateName": "测试003",
+        "floorHeight": 5,
+        "rooms": [
+            {
+                "room_name": "312",
+                "room_type": 0,
+                "room_length": 312,
+                "room_width": 312,
+                "room_height": 5,
+                "walls": [
+                    {
+                        "orientation": 1,
+                        "wall_width": 312,
+                        "wall_height": 5,
+                        "window": [
+                            {
+                                "orientation": 1,
+                                "window_width": 321,
+                                "window_height": 312
+                            }
+                        ]
+                    },
+                    {
+                        "orientation": 1,
+                        "wall_width": 312,
+                        "wall_height": 5,
+                        "window": []
+                    },
+                    {
+                        "orientation": 1,
+                        "wall_width": 312,
+                        "wall_height": 5,
+                        "window": [
+                            {
+                                "orientation": 1,
+                                "window_width": 11,
+                                "window_height": 12
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "room_name": "312",
+                "room_type": 2,
+                "room_length": 444,
+                "room_width": 444,
+                "room_height": 5,
+                "walls": [
+                    {
+                        "orientation": 2,
+                        "wall_width": 123,
+                        "wall_height": 5,
+                        "window": []
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,2 @@
+/home/apoco/apoco-intelligent-analysis/monitor_server/./monitorServer_MQ_tokenAuth.py:149: DeprecationWarning: ssl.PROTOCOL_TLS is deprecated
+  ctx = ssl.SSLContext(ssl.PROTOCOL_SSLv23)

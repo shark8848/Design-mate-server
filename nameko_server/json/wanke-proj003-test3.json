@@ -1,0 +1,27 @@
+{
+    "designLimits": {
+        "coolingLoad": {
+            "upperLimit": 1000,
+            "lowerLimit": 500
+        },
+        "heatingLoad": {
+            "upperLimit": 2000,
+            "lowerLimit": 100
+        }
+    },
+    "numberOfFloors": {
+        "aboveGround": 25,
+        "belowGround": 1
+    },
+    "organizationCode": "wanke",
+    "projectId": "proj003",
+    "buildingId": "test3",
+    "buildingExternalSurfaceArea": 1000,
+    "buildingHeight": 100,
+    "buildingVolume": 750,
+    "northAngle": 30,
+    "formFactor": 0.2,
+    "buildingName": "二单元",
+    "buildingOrientation": "Northwest",
+    "structuralType": "Frame-shear Wall Structure"
+}

@@ -1,0 +1,27 @@
+{
+    "designLimits": {
+        "coolingLoad": {
+            "upperLimit": 3,
+            "lowerLimit": 3
+        },
+        "heatingLoad": {
+            "upperLimit": 3,
+            "lowerLimit": 3
+        }
+    },
+    "numberOfFloors": {
+        "aboveGround": 3,
+        "belowGround": 3
+    },
+    "organizationCode": "wanke",
+    "projectId": "proj007",
+    "buildingId": "qq",
+    "buildingExternalSurfaceArea": 3,
+    "buildingHeight": 3,
+    "buildingVolume": 3,
+    "northAngle": 3,
+    "formFactor": 3,
+    "buildingName": "qq",
+    "buildingOrientation": "qq",
+    "structuralType": "3"
+}

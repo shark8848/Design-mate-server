@@ -1,0 +1,28 @@
+redis:
+        redis_host: '10.8.0.181'
+        redis_port: 6379
+        redis_password: 'apoco20230213'
+sqlite:
+        db_url: 'sqlite:////home/apoco/ai_micro_services/apoco_intelligent_inalytics/database/apoco_ai_masterdb.db'
+server:
+        flask_host: '10.8.0.181'
+        flask_port: [5000,5001,5002,5003]
+        flask_pid_file: 'pid.txt'
+        flask_jwt_secret_key: 'wmQ1altr45MNDfopakKKWYvfgtuikxmghwoqpadr23drti'
+        flask_jwt_expiration_delta : 86400
+mq:
+        config_mq: {'AMQP_URI': "amqp://guest:guest@10.8.0.181"}
+dir:    
+        job_data_root_dir: './json'
+        service_data_root_dir: './json'
+mail:
+        mail_jwt_secret_key: 'zsed1234*&%GBUok)(IFRB%$edrDrByKJuil)VFD$gYhgtl'
+        mail_jwt_expiration_delta : 1800
+        sender_mail: '113162985@qq.com'
+        sender_password: 'nngovzdvkraybhcf'
+        smtp_server: 'smtp.qq.com'
+        smtp_port: '25'
+        smtp_ssl_port: '465'
+        smtp_server_token: 'qq_smtp_server_token,please update it'
+token:
+        algorithms: 'HS256'

@@ -1,0 +1,83 @@
+{
+    "type": "object",
+    "properties": {
+        "organizationCode": { "type": "string", "minLength": 1 },
+        "projectId": { "type": "string", "minLength": 1 },
+        "buildingId": { "type": "string", "minLength": 1 },
+        "buildingName": { "type": "string", "minLength": 1 },
+        "buildingOrientation": { "type": "string", "minLength": 1 },
+        "numberOfFloors": {
+            "type": "object",
+            "properties": {
+                "aboveGround": { "type": "integer", "minimum": 0 },
+                "belowGround": { "type": "integer", "minimum": 0 }
+            },
+            "required": ["aboveGround","belowGround"]
+        },
+        "buildingHeight": { "type": "number", "minimum": 0 },
+        "buildingVolume": { "type": "number", "minimum": 0 },
+        "buildingExternalSurfaceArea": { "type": "number", "minimum": 0 },
+        "formFactor": { "type": "number", "minimum": 0 },
+        "northAngle": { "type": "number", "minimum": 0 },
+        "structuralType": { "type": "string", "minLength": 1 },
+        "designLimits": {
+            "type": "object",
+            "properties": {
+                "coolingLoad": {
+                    "type": "object",
+                    "properties": {
+                        "upperLimit": { "type": "number", "minimum": 0 },
+                        "lowerLimit": { "type": "number", "minimum": 0 }
+                    },
+                    "required": ["upperLimit","lowerLimit"]
+
+                },
+                "heatingLoad": {
+                    "type": "object",
+                    "properties": {
+                        "upperLimit": { "type": "number", "minimum": 0 },
+                        "lowerLimit": { "type": "number", "minimum": 0 }
+                    },
+                    "required": ["upperLimit","lowerLimit"]
+                }
+            }
+        },
+        "floors": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "floorId": { "type": "integer", "minimum": 1, "maximum": 100 },
+                    "height": { "type": "number", "minimum": 1, "maximum": 5 },
+                    "buildingSpacesId": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "minLength": 1, "maxLength": 50
+                        },
+                        "uniqueItems": true
+                    }
+                },
+                "required": [ "floorId", "buildingSpacesId" ]
+            },
+            "minItems": 1,
+            "maxItems": 500,
+            "uniqueItems": true
+        }
+    },
+    "required": [
+        "organizationCode",
+        "projectId",
+        "buildingId",
+        "buildingName",
+        "buildingOrientation",
+        "numberOfFloors",
+        "buildingHeight",
+        "buildingVolume",
+        "buildingExternalSurfaceArea",
+        "formFactor",
+        "northAngle",
+        "structuralType",
+        "designLimits"
+    ]
+}

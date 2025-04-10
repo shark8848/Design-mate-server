@@ -1,0 +1,88 @@
+{
+    "organizationId": "wanke",
+    "projectId": "proj003",
+    "houseTemplate": {
+        "templateName": "模板测试007",
+        "floorHeight": 3,
+        "rooms": [
+            {
+                "room_name": "客厅A",
+                "room_type": 0,
+                "room_length": 6,
+                "room_width": 6,
+                "room_height": 3,
+                "walls": [
+                    {
+                        "orientation": 0,
+                        "wall_width": 5,
+                        "wall_height": 3,
+                        "window": []
+                    },
+                    {
+                        "orientation": 1,
+                        "wall_width": 5,
+                        "wall_height": 3,
+                        "window": [
+                            {
+                                "orientation": 1,
+                                "window_width": 1,
+                                "window_height": 1
+                            }
+                        ]
+                    },
+                    {
+                        "orientation": 2,
+                        "wall_width": 5,
+                        "wall_height": 3,
+                        "window": []
+                    },
+                    {
+                        "orientation": 3,
+                        "wall_width": 5,
+                        "wall_height": 3,
+                        "window": []
+                    }
+                ]
+            },
+            {
+                "room_name": "卧室A",
+                "room_type": 2,
+                "room_length": 5,
+                "room_width": 5,
+                "room_height": 3,
+                "walls": [
+                    {
+                        "orientation": 0,
+                        "wall_width": 3,
+                        "wall_height": 3,
+                        "window": []
+                    },
+                    {
+                        "orientation": 1,
+                        "wall_width": 3,
+                        "wall_height": 3,
+                        "window": []
+                    },
+                    {
+                        "orientation": 2,
+                        "wall_width": 3,
+                        "wall_height": 3,
+                        "window": [
+                            {
+                                "orientation": 2,
+                                "window_width": 1,
+                                "window_height": 1
+                            }
+                        ]
+                    },
+                    {
+                        "orientation": 3,
+                        "wall_width": 3,
+                        "wall_height": 3,
+                        "window": []
+                    }
+                ]
+            }
+        ]
+    }
+}

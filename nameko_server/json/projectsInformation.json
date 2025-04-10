@@ -1,0 +1,150 @@
+{
+    "organizations": [
+        {
+            "organizationCode": "wanke",
+            "projects": [
+                {
+                    "projectId": "proj003",
+                    "buildingArea": 58260.769909908086,
+                    "designCompany": "Excepteur in",
+                    "constructionCompany": "ut dolor sint",
+                    "landArea": 12325266.016911492,
+                    "yearOfConstruction": 2023,
+                    "solarAbsorptionCoefficient": {
+                        "externalWalls": 0.2,
+                        "roof": 0.3
+                    },
+                    "climateZone": "sit reprehe",
+                    "geographicalLocation": {
+                        "Latitude": 45.5231,
+                        "Longitude": -122.6765
+                    },
+                    "projectAddress": "123 Main St.",
+                    "projectType": "office building",
+                    "projectName": "Acme Tower",
+                    "projectBuildingsIndexFile": "./json/wanke-proj003-Index.json"
+                },
+                {
+                    "projectId": "proj007",
+                    "buildingArea": 58260.769909908086,
+                    "designCompany": "Excepteur in",
+                    "constructionCompany": "ut dolor sint",
+                    "landArea": 12325266.016911492,
+                    "yearOfConstruction": 2023,
+                    "solarAbsorptionCoefficient": {
+                        "externalWalls": 0.2,
+                        "roof": 0.3
+                    },
+                    "climateZone": "sit reprehe",
+                    "geographicalLocation": {
+                        "Latitude": 45.5231,
+                        "Longitude": -120
+                    },
+                    "projectAddress": "123 Main St.",
+                    "projectType": "office building",
+                    "projectName": "Acme Tower",
+                    "projectBuildingsIndexFile": "./json/wanke-proj007-Index.json"
+                },
+                {
+                    "projectId": "proj009",
+                    "buildingArea": 58260.769909908086,
+                    "designCompany": "Excepteur in",
+                    "constructionCompany": "ut dolor sint",
+                    "landArea": 12325266.016911492,
+                    "yearOfConstruction": 2023,
+                    "solarAbsorptionCoefficient": {
+                        "externalWalls": 0.2,
+                        "roof": 0.3
+                    },
+                    "climateZone": "sit reprehe",
+                    "geographicalLocation": {
+                        "Latitude": 45.5231,
+                        "Longitude": -122.6765
+                    },
+                    "projectAddress": "123 Main St.",
+                    "projectType": "office building",
+                    "projectName": "Acme 1111",
+                    "projectBuildingsIndexFile": "./json/wanke-proj009-Index.json",
+                    "Latitude": "33",
+                    "Longitude": "44",
+                    "externalWalls": "3333333",
+                    "roof": "4444444"
+                },
+                {
+                    "buildingArea": 54812.1548411,
+                    "climateZone": "Ⅴ&D",
+                    "constructionCompany": "amce",
+                    "designCompany": "amce",
+                    "geographicalLocation": {
+                        "Latitude": 10,
+                        "Longitude": 20
+                    },
+                    "landArea": 1234154.154512,
+                    "projectAddress": "Acme123",
+                    "projectId": "proj110",
+                    "projectName": "Acme",
+                    "projectType": "Residential buildings",
+                    "solarAbsorptionCoefficient": {
+                        "externalWalls": 0.1,
+                        "roof": 0.2
+                    },
+                    "yearOfConstruction": 2023,
+                    "projectBuildingsIndexFile": "./json/wanke-proj110-Index.json",
+                    "geographicalLocation_obj": [
+                        {
+                            "Latitude": 10,
+                            "Longitude": 20
+                        }
+                    ],
+                    "solarAbsorptionCoefficient_obj": [
+                        {
+                            "externalWalls": 0.1,
+                            "roof": 0.2
+                        }
+                    ],
+                    "climateZoneShow": [
+                        "Ⅴ",
+                        "D"
+                    ]
+                },
+                {
+                    "buildingArea": 1541135.154152,
+                    "climateZone": "Ⅳ&D",
+                    "constructionCompany": "design",
+                    "designCompany": "desing",
+                    "geographicalLocation": {
+                        "Latitude": 10,
+                        "Longitude": 20
+                    },
+                    "landArea": 15442.84151112,
+                    "projectAddress": "address",
+                    "projectId": "proj120",
+                    "projectName": "Acme123",
+                    "projectType": "Industrial buildings",
+                    "solarAbsorptionCoefficient": {
+                        "externalWalls": 0.3,
+                        "roof": 0.2
+                    },
+                    "yearOfConstruction": 2023,
+                    "projectBuildingsIndexFile": "./json/wanke-proj120-Index.json",
+                    "geographicalLocation_obj": [
+                        {
+                            "Latitude": 10,
+                            "Longitude": 20
+                        }
+                    ],
+                    "solarAbsorptionCoefficient_obj": [
+                        {
+                            "externalWalls": 0.3,
+                            "roof": 0.2
+                        }
+                    ],
+                    "climateZoneShow": [
+                        "Ⅳ",
+                        "D"
+                    ]
+                }
+            ]
+        }
+    ]
+}

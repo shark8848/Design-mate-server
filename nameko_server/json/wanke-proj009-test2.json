@@ -1,0 +1,27 @@
+{
+    "designLimits": {
+        "coolingLoad": {
+            "upperLimit": 100,
+            "lowerLimit": 50
+        },
+        "heatingLoad": {
+            "upperLimit": 200,
+            "lowerLimit": 30
+        }
+    },
+    "numberOfFloors": {
+        "aboveGround": 10,
+        "belowGround": 0
+    },
+    "organizationCode": "wanke",
+    "projectId": "proj009",
+    "buildingId": "test2",
+    "buildingExternalSurfaceArea": 100,
+    "buildingHeight": 35,
+    "buildingVolume": 1000,
+    "northAngle": 10,
+    "formFactor": 0.2,
+    "buildingName": "二单元",
+    "buildingOrientation": "North",
+    "structuralType": "Shell Structure"
+}

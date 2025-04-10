@@ -1,0 +1,64 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Job Schema",
+    "type": "object",
+    "properties": {
+        "jobs": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "job_id": {
+                        "type": "string",
+                        "description": "The unique identifier of the job",
+                        "pattern": "^[a-zA-Z0-9_-]{20}$"
+                    },
+                    "organizationCode": {
+                        "type": "string",
+                        "description": "The name of the organizationCode who submitted the job",
+                        "minLength": 1,
+                        "maxLength": 50
+                    },
+                    "submitter": {
+                        "type": "string",
+                        "description": "The submitter of the job"
+                    },
+                    "submit_time": {
+                        "type": "string",
+                        "description": "The time when the job was submitted",
+                        "format": "date-time"
+                    },
+                    "description": {
+                        "type": "string",
+                        "description": "The description of the job"
+                    },
+                    "parameters": {
+                        "type": "object",
+                        "description": "The parameters of the job"
+                    },
+                    "status": {
+                        "type": "string",
+                        "description": "The status of the job",
+                        "enum": ["submitted", "started", "completed", "cancelled", "failed"]
+                    },
+                    "start_time": {
+                        "type": "string",
+                        "description": "The time when the job was started",
+                        "format": "date-time"
+                    },
+                    "end_time": {
+                        "type": "string",
+                        "description": "The time when the job was completed or cancelled",
+                        "format": "date-time"
+                    },
+                    "error_message": {
+                        "type": "string",
+                        "description": "The error message if the job failed"
+                    }
+                },
+                "required": ["job_id", "submitter", "submit_time", "description", "parameters", "status"]
+            }
+        }
+    },
+    "uniqueItems": true
+}

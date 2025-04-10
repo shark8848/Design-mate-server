@@ -1,0 +1,27 @@
+{
+    "designLimits": {
+        "coolingLoad": {
+            "upperLimit": 3,
+            "lowerLimit": 3
+        },
+        "heatingLoad": {
+            "upperLimit": 3,
+            "lowerLimit": 3
+        }
+    },
+    "numberOfFloors": {
+        "aboveGround": 3,
+        "belowGround": 3
+    },
+    "organizationCode": "wanke",
+    "projectId": "proj002",
+    "buildingId": "3",
+    "buildingExternalSurfaceArea": 3,
+    "buildingHeight": 3,
+    "buildingVolume": 3,
+    "northAngle": 3,
+    "formFactor": 3,
+    "buildingName": "3",
+    "buildingOrientation": "3",
+    "structuralType": "3"
+}

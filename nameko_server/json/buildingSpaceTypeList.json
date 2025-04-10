@@ -1,0 +1,48 @@
+
+[
+    {
+        "buildingSpaceTypeCode":"Living room",
+        "buildingSpaceTypeName":"客厅"
+    },
+    {
+        "buildingSpaceTypeCode":"Dining room",
+        "buildingSpaceTypeName":"餐厅"
+    },
+    {
+        "buildingSpaceTypeCode":"Bedroom",
+        "buildingSpaceTypeName":"卧室"
+    },
+    {
+        "buildingSpaceTypeCode":"Bathroom",
+        "buildingSpaceTypeName":"卫生间"
+    },
+    {
+        "buildingSpaceTypeCode":"Kitchen",
+        "buildingSpaceTypeName":"厨房"
+    },
+    {
+        "buildingSpaceTypeCode":"Balcony",
+        "buildingSpaceTypeName":"阳台"
+    },
+    {
+        "buildingSpaceTypeCode":"Kitchen",
+        "buildingSpaceTypeName":"厨房"
+    },
+    {
+        "buildingSpaceTypeCode":"Kitchen",
+        "buildingSpaceTypeName":"厨房"
+    },
+    {
+        "buildingSpaceTypeCode":"Corridor",
+        "buildingSpaceTypeName":"过道"
+    },
+    {
+        "buildingSpaceTypeCode":"Staircase",
+        "buildingSpaceTypeName":"楼梯"
+    },
+    {
+        "buildingSpaceTypeCode":"Common area",
+        "buildingSpaceTypeName":"公共区域"
+    }
+]
+

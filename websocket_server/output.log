@@ -1,0 +1,2 @@
+/home/apoco/apoco-intelligent-analysis/websocket_server/./webSocketServer_MQ_tokenAuth.py:142: DeprecationWarning: ssl.PROTOCOL_TLS is deprecated
+  ctx = ssl.SSLContext(ssl.PROTOCOL_SSLv23)
