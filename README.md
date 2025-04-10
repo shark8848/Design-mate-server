@@ -1,19 +1,16 @@
 
-运行环境要求
+## 运行环境要求
 Ubuntu 20.04.6 LTS，Python 3.8.10 及以上
 创建部署目录，如 /home/apoco
-1、下载部署文件
-git clone  https://gitlab.apoco.com.cn/ai/apoco-intelligent-analysis.git
-在部署环境下会创建一个完整的文件包目录
-
-2、创建python 虚拟隔离环境
-cd apoco-intelligent-analysis
+## 下载部署文件
+git clone  [https://github.com/shark8848/Design-mate-server.git](https://github.com/shark8848/Design-mate-server.git)
+## 创建python 虚拟隔离环境
+cd Design-mate-server
 python3 -m venv venv
 source venv/bin/activate
-3、安装依赖包
-
+## 安装依赖包
 pip install -r requirements.txt
-4、安装redis 并配置
+## 安装redis 并配置
 1）安装 sudo apt install redis-server
 2）配置访问密码
 在 Redis 中配置访问密码是为了增加安全性，以确保只有知道密码的用户可以访问 Redis 服务器。
@@ -27,9 +24,9 @@ requirepass apoco2022
 （2）重启 Redis 服务：配置更改后，需要重启 Redis 服务才能使密码生效。
 sudo systemctl restart redis-server
 
-5、安装rabbitmq
+## 安装rabbitmq
 
-1）在开始安装RabbitMQ之前，确保系统已经安装了一些必要的依赖项。
+### 在开始安装RabbitMQ之前，确保系统已经安装了一些必要的依赖项。
 sudo apt update
 sudo apt install -y curl gnupg
 2）添加RabbitMQ APT存储库：
