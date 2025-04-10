@@ -208,8 +208,8 @@ sudo nginx -t && sudo systemctl reload nginx
 ### 1. 下载脚本
 ```bash
 mkdir mail_service && cd mail_service
-curl -O https://gitlab.apoco.com.cn/ai/apoco-intelligent-analysis/-/raw/develop-sunhy/fetch_file.sh
-curl -O https://gitlab.apoco.com.cn/ai/apoco-intelligent-analysis/-/raw/develop-sunhy/file_list.txt
+curl -O [https://github.com/shark8848/Design-mate-server/blob/master/fetch_file.sh](https://github.com/shark8848/Design-mate-server/blob/master/fetch_file.sh)
+curl -O [https://github.com/shark8848/Design-mate-server/blob/master/file_list.txt](https://github.com/shark8848/Design-mate-server/blob/master/file_list.txt)
 chmod +x fetch_file.sh
 ```
 
@@ -225,7 +225,7 @@ python3 mail_service.py
 ---
 
 > **部署验证**
-> 1. 访问 `http://aiportal.apoco.com.cn`
+> 1. 访问 `http://portal.xxxxx.com.cn`
 > 2. 检查各服务状态：
 >    ```bash
 >    # 检查进程
