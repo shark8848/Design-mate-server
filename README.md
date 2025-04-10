@@ -121,15 +121,15 @@ chmod +x *.sh
 ### 1. 下载前端代码
 ```bash
 cd /home/apoco
-git clone -b dev https://gitlab.apoco.com.cn/ai/apoco-intelligent-analysis-admin.git
+git clone -b dev [https://github.com/shark8848/Design-mate-portal.git](https://github.com/shark8848/Design-mate-portal.git)
 ```
 
 ### 2. Apache 配置示例
 ```apacheconf
 # /etc/apache2/sites-available/aiportal.conf
 <VirtualHost *:80>
-    ServerName aiportal.apoco.com.cn
-    DocumentRoot /home/apoco/apoco-intelligent-analysis-admin/dist
+    ServerName portal.xxxx.com.cn
+    DocumentRoot /home/apoco/Design-mate-portal/dist
 
     # API反向代理
     ProxyPass /api http://localhost:5000
@@ -139,7 +139,7 @@ git clone -b dev https://gitlab.apoco.com.cn/ai/apoco-intelligent-analysis-admin
     ProxyPass /ws/ ws://localhost:8000/
     ProxyPassReverse /ws/ ws://localhost:8000/
 
-    <Directory "/home/apoco/apoco-intelligent-analysis-admin/dist">
+    <Directory "/home/apoco/Design-mate-portal/dist">
         Options Indexes FollowSymLinks
         AllowOverride All
         Require all granted
@@ -166,11 +166,11 @@ upstream ai_servers {
 
 server {
     listen 80;
-    server_name aiportal.apoco.com.cn;
+    server_name portal.xxxxx.com.cn;
 
     # 静态文件服务
     location / {
-        root /home/apoco/apoco-intelligent-analysis-admin/dist;
+        root /home/apoco/Design-mate-portal/dist;
         try_files $uri $uri/ /index.html;
     }
 
