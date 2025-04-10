@@ -4,8 +4,8 @@ dir:
 mail:
   mail_jwt_expiration_delta: 1800
   mail_jwt_secret_key: VvVh6GSzwmDZ1hBUCjnfwpZoOof+K1nnjF89SPH4k7JvzZWTfkwXM/V2SLTFYMBA
-  sender_mail: 113162985@qq.com
-  sender_password: XZjr1bFrfeI0LBIVTg/kfQUcRTJ7x0H7ororFa/KLYWD4gyzGnOiTNvGsBmhVNCd
+  sender_mail: *********@qq.com
+  sender_password: 
   smtp_port: '25'
   smtp_server: smtp.qq.com
   smtp_server_token: qazwsx
